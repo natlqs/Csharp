@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "19_2_多线程基础_Thread_Task_async_await/1.0.0": {
+        "runtime": {
+          "19_2_多线程基础_Thread_Task_async_await.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "19_2_多线程基础_Thread_Task_async_await/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,22 @@
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageBLL\bin\Debug\CourseManageBLL.dll
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageBLL\bin\Debug\CourseManageBLL.pdb
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageBLL\bin\Debug\CourseManageDAL.dll
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageBLL\bin\Debug\CourseManageModels.dll
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageBLL\bin\Debug\CourseManageDAL.pdb
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageBLL\bin\Debug\CourseManageModels.pdb
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageBLL\obj\Debug\CourseManageBLL.csproj.AssemblyReference.cache
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageBLL\obj\Debug\CourseManageBLL.csproj.CoreCompileInputs.cache
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageBLL\obj\Debug\CourseManageBLL.csproj.CopyComplete
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageBLL\obj\Debug\CourseManageBLL.dll
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageBLL\obj\Debug\CourseManageBLL.pdb
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageBLL\bin\Debug\CourseManageBLL.dll
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageBLL\bin\Debug\CourseManageBLL.pdb
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageBLL\bin\Debug\CourseManageDAL.dll
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageBLL\bin\Debug\CourseManageModels.dll
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageBLL\bin\Debug\CourseManageDAL.pdb
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageBLL\bin\Debug\CourseManageModels.pdb
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageBLL\obj\Debug\CourseManageBLL.csproj.AssemblyReference.cache
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageBLL\obj\Debug\CourseManageBLL.csproj.CoreCompileInputs.cache
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageBLL\obj\Debug\CourseManageBLL.csproj.CopyComplete
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageBLL\obj\Debug\CourseManageBLL.dll
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageBLL\obj\Debug\CourseManageBLL.pdb

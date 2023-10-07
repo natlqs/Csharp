@@ -1,0 +1,69 @@
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.ProjectUITeach\CourseManageUI\bin\Debug\CourseManageUI.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.ProjectUITeach\CourseManageUI\bin\Debug\CourseManageUI.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.ProjectUITeach\CourseManageUI\bin\Debug\CourseManageUI.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.ProjectUITeach\CourseManageUI\obj\Debug\CourseManageUI.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.ProjectUITeach\CourseManageUI\obj\Debug\CourseManageUI.FrmAdminLogin.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.ProjectUITeach\CourseManageUI\obj\Debug\CourseManageUI.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.ProjectUITeach\CourseManageUI\obj\Debug\CourseManageUI.csproj.GenerateResource.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.ProjectUITeach\CourseManageUI\obj\Debug\CourseManageUI.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.ProjectUITeach\CourseManageUI\obj\Debug\CourseManageUI.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.ProjectUITeach\CourseManageUI\obj\Debug\CourseManageUI.pdb
+J:\【01】.NET-CourseData\【06】正在更新中的VIP和公开课\02【公开课】面向对象\第05讲：WF开发之企业级UI设计标准和技巧\同步授课源码\xiketang.com.ProjectUITeach\CourseManageUI\bin\Debug\CourseManageUI.exe.config
+J:\【01】.NET-CourseData\【06】正在更新中的VIP和公开课\02【公开课】面向对象\第05讲：WF开发之企业级UI设计标准和技巧\同步授课源码\xiketang.com.ProjectUITeach\CourseManageUI\bin\Debug\CourseManageUI.exe
+J:\【01】.NET-CourseData\【06】正在更新中的VIP和公开课\02【公开课】面向对象\第05讲：WF开发之企业级UI设计标准和技巧\同步授课源码\xiketang.com.ProjectUITeach\CourseManageUI\bin\Debug\CourseManageUI.pdb
+J:\【01】.NET-CourseData\【06】正在更新中的VIP和公开课\02【公开课】面向对象\第05讲：WF开发之企业级UI设计标准和技巧\同步授课源码\xiketang.com.ProjectUITeach\CourseManageUI\obj\Debug\CourseManageUI.csprojAssemblyReference.cache
+J:\【01】.NET-CourseData\【06】正在更新中的VIP和公开课\02【公开课】面向对象\第05讲：WF开发之企业级UI设计标准和技巧\同步授课源码\xiketang.com.ProjectUITeach\CourseManageUI\obj\Debug\CourseManageUI.FrmAdminLogin.resources
+J:\【01】.NET-CourseData\【06】正在更新中的VIP和公开课\02【公开课】面向对象\第05讲：WF开发之企业级UI设计标准和技巧\同步授课源码\xiketang.com.ProjectUITeach\CourseManageUI\obj\Debug\CourseManageUI.FrmMain.resources
+J:\【01】.NET-CourseData\【06】正在更新中的VIP和公开课\02【公开课】面向对象\第05讲：WF开发之企业级UI设计标准和技巧\同步授课源码\xiketang.com.ProjectUITeach\CourseManageUI\obj\Debug\CourseManageUI.Properties.Resources.resources
+J:\【01】.NET-CourseData\【06】正在更新中的VIP和公开课\02【公开课】面向对象\第05讲：WF开发之企业级UI设计标准和技巧\同步授课源码\xiketang.com.ProjectUITeach\CourseManageUI\obj\Debug\CourseManageUI.csproj.GenerateResource.cache
+J:\【01】.NET-CourseData\【06】正在更新中的VIP和公开课\02【公开课】面向对象\第05讲：WF开发之企业级UI设计标准和技巧\同步授课源码\xiketang.com.ProjectUITeach\CourseManageUI\obj\Debug\CourseManageUI.csproj.CoreCompileInputs.cache
+J:\【01】.NET-CourseData\【06】正在更新中的VIP和公开课\02【公开课】面向对象\第05讲：WF开发之企业级UI设计标准和技巧\同步授课源码\xiketang.com.ProjectUITeach\CourseManageUI\obj\Debug\CourseManageUI.exe
+J:\【01】.NET-CourseData\【06】正在更新中的VIP和公开课\02【公开课】面向对象\第05讲：WF开发之企业级UI设计标准和技巧\同步授课源码\xiketang.com.ProjectUITeach\CourseManageUI\obj\Debug\CourseManageUI.pdb
+J:\【01】.NET-CourseData\【06】正在更新中的VIP和公开课\02【公开课】面向对象\第05讲：WF开发之企业级UI设计标准和技巧\同步授课源码\xiketang.com.ProjectUITeach\CourseManageUI\obj\Debug\CourseManageUI.FrmCourseManage.resources
+E:\【06】正在更新中的VIP和公开课\【20190312】公开课录制整理\第09讲：【面向对象】WF快速开发之企业级UI设计标准和技巧\同步授课源码\xiketang.com.ProjectUITeach\CourseManageUI\bin\Debug\CourseManageUI.exe.config
+E:\【06】正在更新中的VIP和公开课\【20190312】公开课录制整理\第09讲：【面向对象】WF快速开发之企业级UI设计标准和技巧\同步授课源码\xiketang.com.ProjectUITeach\CourseManageUI\obj\Debug\CourseManageUI.exe
+E:\【06】正在更新中的VIP和公开课\【20190312】公开课录制整理\第09讲：【面向对象】WF快速开发之企业级UI设计标准和技巧\同步授课源码\xiketang.com.ProjectUITeach\CourseManageUI\obj\Debug\CourseManageUI.pdb
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageUI.exe.config
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageUI.exe
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageUI.pdb
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmAddCourse.resources
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmAdminLogin.resources
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmCourseManage.resources
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmMain.resources
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmModifyPwd.resources
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmTeacherManage.resources
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.Properties.Resources.resources
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.exe
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.pdb
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageBLL.dll
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageModels.dll
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageBLL.pdb
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageModels.pdb
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.csproj.CopyComplete
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageDAL.dll
+C:\Users\Administrator\Desktop\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageDAL.pdb
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageUI.exe.config
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageUI.exe
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageUI.pdb
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageBLL.dll
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageModels.dll
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageDAL.dll
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageBLL.pdb
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageModels.pdb
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageDAL.pdb
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.csprojAssemblyReference.cache
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmAddCourse.resources
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmAdminLogin.resources
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmCourseManage.resources
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmMain.resources
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmModifyPwd.resources
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmTeacherManage.resources
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.Properties.Resources.resources
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.csproj.GenerateResource.cache
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.csproj.CoreCompileInputs.cache
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.csproj.CopyComplete
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.exe
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第21节项目实战：课程管理系统开发之通用登录模块实现\授课资料\授课笔记和源码\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.pdb

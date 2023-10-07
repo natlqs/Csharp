@@ -1,0 +1,71 @@
+E:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\bin\Debug\WinformBasic.exe.config
+E:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\bin\Debug\WinformBasic.exe
+E:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\bin\Debug\WinformBasic.pdb
+E:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.csproj.AssemblyReference.cache
+E:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.csproj.SuggestedBindingRedirects.cache
+E:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.FrmEventApp.resources
+E:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.csproj.GenerateResource.cache
+E:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.csproj.CoreCompileInputs.cache
+E:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.exe
+E:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.pdb
+E:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.SerialSetting.resources
+E:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.DataStorageSetting.resources
+E:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.Properties.Resources.resources
+E:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.LuckyNumbers_Frm.resources
+Z:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\bin\Debug\WinformBasic.exe.config
+Z:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\bin\Debug\WinformBasic.exe
+Z:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\bin\Debug\WinformBasic.pdb
+Z:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.csproj.AssemblyReference.cache
+Z:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.csproj.SuggestedBindingRedirects.cache
+Z:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.DataStorageSetting.resources
+Z:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.FrmEventApp.resources
+Z:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.LuckyNumbers_Frm.resources
+Z:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.Properties.Resources.resources
+Z:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.SerialSetting.resources
+Z:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.csproj.GenerateResource.cache
+Z:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.csproj.CoreCompileInputs.cache
+Z:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.exe
+Z:\VMcommunicate\CODE\Csharp\WinformBasic\WinformBasic\obj\Debug\WinformBasic.pdb
+E:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\bin\Debug\WinformBasic.exe.config
+E:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\bin\Debug\WinformBasic.exe
+E:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\bin\Debug\WinformBasic.pdb
+E:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.csproj.AssemblyReference.cache
+E:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.csproj.SuggestedBindingRedirects.cache
+E:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.DataStorageSetting.resources
+E:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.FrmEventApp.resources
+E:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.LuckyNumbers_Frm.resources
+E:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.Properties.Resources.resources
+E:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.SerialSetting.resources
+E:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.csproj.GenerateResource.cache
+E:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.csproj.CoreCompileInputs.cache
+E:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.exe
+E:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.pdb
+<<<<<<< HEAD
+D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\bin\Debug\WinformBasic.exe.config
+D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\bin\Debug\WinformBasic.exe
+D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\bin\Debug\WinformBasic.pdb
+D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.csproj.AssemblyReference.cache
+D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.DataStorageSetting.resources
+D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.FrmEventApp.resources
+D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.LuckyNumbers_Frm.resources
+D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.Properties.Resources.resources
+D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.SerialSetting.resources
+D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.csproj.GenerateResource.cache
+D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.csproj.CoreCompileInputs.cache
+D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.exe
+D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.pdb
+=======
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\bin\Debug\WinformBasic.exe.config
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\bin\Debug\WinformBasic.exe
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\bin\Debug\WinformBasic.pdb
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.csproj.AssemblyReference.cache
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.DataStorageSetting.resources
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.FrmEventApp.resources
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.LuckyNumbers_Frm.resources
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.Properties.Resources.resources
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.SerialSetting.resources
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.csproj.GenerateResource.cache
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.csproj.CoreCompileInputs.cache
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.exe
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\WinformBasic\WinformBasic\obj\Debug\WinformBasic.pdb
+>>>>>>> ff9a90a46d4f088a61395815cdb73c770a832254

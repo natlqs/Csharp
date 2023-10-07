@@ -1,0 +1,16 @@
+D:\01_Data\CODE\csharp\X_Essential C#\14_Event_事件\14_Event_事件\bin\Debug\net6.0-windows\14_Event_事件.exe
+D:\01_Data\CODE\csharp\X_Essential C#\14_Event_事件\14_Event_事件\bin\Debug\net6.0-windows\14_Event_事件.deps.json
+D:\01_Data\CODE\csharp\X_Essential C#\14_Event_事件\14_Event_事件\bin\Debug\net6.0-windows\14_Event_事件.runtimeconfig.json
+D:\01_Data\CODE\csharp\X_Essential C#\14_Event_事件\14_Event_事件\bin\Debug\net6.0-windows\14_Event_事件.dll
+D:\01_Data\CODE\csharp\X_Essential C#\14_Event_事件\14_Event_事件\bin\Debug\net6.0-windows\14_Event_事件.pdb
+D:\01_Data\CODE\csharp\X_Essential C#\14_Event_事件\14_Event_事件\obj\Debug\net6.0-windows\_14_Event_事件.Form1.resources
+D:\01_Data\CODE\csharp\X_Essential C#\14_Event_事件\14_Event_事件\obj\Debug\net6.0-windows\14_Event_事件.csproj.GenerateResource.cache
+D:\01_Data\CODE\csharp\X_Essential C#\14_Event_事件\14_Event_事件\obj\Debug\net6.0-windows\14_Event_事件.GeneratedMSBuildEditorConfig.editorconfig
+D:\01_Data\CODE\csharp\X_Essential C#\14_Event_事件\14_Event_事件\obj\Debug\net6.0-windows\14_Event_事件.AssemblyInfoInputs.cache
+D:\01_Data\CODE\csharp\X_Essential C#\14_Event_事件\14_Event_事件\obj\Debug\net6.0-windows\14_Event_事件.AssemblyInfo.cs
+D:\01_Data\CODE\csharp\X_Essential C#\14_Event_事件\14_Event_事件\obj\Debug\net6.0-windows\14_Event_事件.csproj.CoreCompileInputs.cache
+D:\01_Data\CODE\csharp\X_Essential C#\14_Event_事件\14_Event_事件\obj\Debug\net6.0-windows\14_Event_事件.dll
+D:\01_Data\CODE\csharp\X_Essential C#\14_Event_事件\14_Event_事件\obj\Debug\net6.0-windows\refint\14_Event_事件.dll
+D:\01_Data\CODE\csharp\X_Essential C#\14_Event_事件\14_Event_事件\obj\Debug\net6.0-windows\14_Event_事件.pdb
+D:\01_Data\CODE\csharp\X_Essential C#\14_Event_事件\14_Event_事件\obj\Debug\net6.0-windows\14_Event_事件.genruntimeconfig.cache
+D:\01_Data\CODE\csharp\X_Essential C#\14_Event_事件\14_Event_事件\obj\Debug\net6.0-windows\ref\14_Event_事件.dll

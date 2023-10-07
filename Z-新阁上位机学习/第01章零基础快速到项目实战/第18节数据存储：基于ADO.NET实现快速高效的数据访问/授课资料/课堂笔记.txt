@@ -1,0 +1,157 @@
+***************************欢迎大家参加喜科堂互联教育.Net全栈开发和上位机课程**************************
+
+课程主讲：常老师
+课程网址：xiketang.ke.qq.com
+
+全栈目标：从基础到企业级项目实战系列课程（C/S +  B/S 全栈开发方向）
+全栈概念：.NET平台开发的全栈技术包括（C/S、B/S--前端+后台、.Net Core跨平台技术）
+
+上位机目标：完全独立使用C#+数据库+通信协议开发工控上位机系统 
+
+课程分类：基础免费公开课  +  深入系统学习的付费VIP课程
+
+联系我们：常老师QQ：2934008878     助教老师QQ：995551859（资料获取）
+
+******************************************************************************************************
+
+
+*************************【基于ADO.NET实现快速高效的数据访问】***********************
+
+一、应用程序和数据库连接的条件
+
+1.服务器IP地址（如果练习是在本机，可以直接使用服务器名称）
+
+2.数据库的名称
+
+3.登录账号
+
+4.登录密码
+
+PS：关于数据库操作的对象
+
+SQLSever、MySql、Oracle...Access...Excel
+
+解决不同数据库连接用的是统一的“接口”的不同实现。
+
+SqlConnection    SqlCommand   SqlDataReader
+
+MySqlConnection ...  【需要你单独添加第三方的dll】
+
+OracleConnection...  【需要你单独添加第三方的dll】
+
+OleDbConnection...
+
+链接的条件：把连接条件封装到一个字符串中。
+
+
+
+二、基于ADO.NET实现增删改查核心操作
+
+use CourseManageDB
+go
+
+select * from Course
+
+select Count(*) as 课程总数 from Course
+
+select CourseName from Course where CourseId=1043
+
+select CourseName, CourseContent, ClassHour from Course where CourseId<1020
+
+三、通用数据访问类SQLHelper的使用
+
+1.编写通用的增删改方法。
+
+2.关于字符配置问题。常见错误如下：
+
+System.TypeInitializationException:““xiketang.com.Ado.Net.SQLHelper”的类型初始值设定项引发异常。”
+
+解决方法：
+
+【1】项目的配置文件App.config，不能重复添加，而且名称不能修改！
+
+【2】xml文件节点名称写错
+
+  <connectionString>
+    <add name="connString" connectionString="Server=.;DataBase=CourseManageDB;Uid=sa;Pwd=a123456"/>
+  </connectionString>
+
+少了一个s，应该是connectionStrings
+
+
+【3】配置节点中，name部分写错，比如多了一个空格
+
+  <add name="connString " connectionString="Server=.;DataBase=CourseManageDB;Uid=sa;Pwd=a123456"/>
+
+
+"connString " 这个地方有空格和没有空格是有区别的。
+
+【4】配置节点中，name部分单词拼写错误，比如
+
+name="connStrig"  当我们使用connString的时候，就找不到了。
+
+
+【5】配置节点写的正确，但是读取的时候，C#部分，节点名写错
+
+  private static string connString = ConfigurationManager.ConnectionStrings["conString"].ToString();
+
+比如上面conString少了一个n，记住，在这个地方和前面一样，多一个空格也不行！
+
+【6】配置文件App.config文件必须放到项目的“可启动项目的根目录下”，不能放到其他模块下面！
+
+比如，有的学员把此文件，放到DAL或其他类库下面，都是不允许的。
+
+以上情况， 大家必须自己会解决！
+
+——————————————————————————————————————————————
+
+3.封装单一结果查询方法
+
+4.封装结果集查询方法
+
+错误：System.InvalidOperationException:“阅读器关闭时尝试调用 Read 无效。”
+
+原因：是我们在通用方法中关闭了链接，我们不能直接关闭，解决方法如下：
+
+ 添加枚举  return cmd.ExecuteReader(CommandBehavior.CloseConnection);
+
+特别说明：
+
+我们不能把链接对象Connection再次独立了。因为我们使用的静态方法，否则会出现冲突。
+
+******************************************************************************************************
+全栈基础到项目学习，课程学习链接：https://ke.qq.com/course/60266
+上位机从基础到项目，课程学习链接：https://ke.qq.com/course/301616
+******************************************************************************************************
+全栈VIP系统学习，课程链接：https://ke.qq.com/course/59314
+上位机VIP系统学习，课程链接：https://ke.qq.com/course/289623
+******************************************************************************************************
+
+联系我们：常老师QQ：2934008878     助教老师QQ：995551859（更多资料获取）
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

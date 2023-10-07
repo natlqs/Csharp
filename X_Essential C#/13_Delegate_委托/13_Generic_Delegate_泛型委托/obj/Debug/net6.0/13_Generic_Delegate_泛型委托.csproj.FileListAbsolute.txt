@@ -1,0 +1,14 @@
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Generic_Delegate_泛型委托\bin\Debug\net6.0\13_Generic_Delegate_泛型委托.exe
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Generic_Delegate_泛型委托\bin\Debug\net6.0\13_Generic_Delegate_泛型委托.deps.json
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Generic_Delegate_泛型委托\bin\Debug\net6.0\13_Generic_Delegate_泛型委托.runtimeconfig.json
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Generic_Delegate_泛型委托\bin\Debug\net6.0\13_Generic_Delegate_泛型委托.dll
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Generic_Delegate_泛型委托\bin\Debug\net6.0\13_Generic_Delegate_泛型委托.pdb
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Generic_Delegate_泛型委托\obj\Debug\net6.0\13_Generic_Delegate_泛型委托.GeneratedMSBuildEditorConfig.editorconfig
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Generic_Delegate_泛型委托\obj\Debug\net6.0\13_Generic_Delegate_泛型委托.AssemblyInfoInputs.cache
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Generic_Delegate_泛型委托\obj\Debug\net6.0\13_Generic_Delegate_泛型委托.AssemblyInfo.cs
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Generic_Delegate_泛型委托\obj\Debug\net6.0\13_Generic_Delegate_泛型委托.csproj.CoreCompileInputs.cache
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Generic_Delegate_泛型委托\obj\Debug\net6.0\13_Generic_Delegate_泛型委托.dll
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Generic_Delegate_泛型委托\obj\Debug\net6.0\refint\13_Generic_Delegate_泛型委托.dll
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Generic_Delegate_泛型委托\obj\Debug\net6.0\13_Generic_Delegate_泛型委托.pdb
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Generic_Delegate_泛型委托\obj\Debug\net6.0\13_Generic_Delegate_泛型委托.genruntimeconfig.cache
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Generic_Delegate_泛型委托\obj\Debug\net6.0\ref\13_Generic_Delegate_泛型委托.dll
