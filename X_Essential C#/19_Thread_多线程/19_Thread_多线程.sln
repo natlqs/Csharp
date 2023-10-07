@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "19_1_Thread_多线程概念", "19_Thread_多线程\19_1_Thread_多线程概念.csproj", "{3FE55D15-177E-49E3-85BD-9E9FACA84E1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_4_自制进程管理器", "19_自制进程管理器\19_4_自制进程管理器.csproj", "{115044C9-F611-46AD-98D2-834DDC34E00F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_5_进程单例(同一程序只允许运行一个进程)", "进程单例(同一程序只允许运行一个进程)\19_5_进程单例(同一程序只允许运行一个进程).csproj", "{B0EF1457-3FC9-4CE8-9800-164D549C116C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_2_多线程_Thread_Task_async_await", "19_2_多线程基础_Thread_Task_async_await\19_2_多线程_Thread_Task_async_await.csproj", "{DC234518-3050-4EF7-937C-7B8938A38F4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_3_多线程_进度条", "19_3_多线程_进度条\19_3_多线程_进度条.csproj", "{9E5C8076-00B4-4ABC-94EA-BD370E4498FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FE55D15-177E-49E3-85BD-9E9FACA84E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE55D15-177E-49E3-85BD-9E9FACA84E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE55D15-177E-49E3-85BD-9E9FACA84E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE55D15-177E-49E3-85BD-9E9FACA84E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{115044C9-F611-46AD-98D2-834DDC34E00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{115044C9-F611-46AD-98D2-834DDC34E00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{115044C9-F611-46AD-98D2-834DDC34E00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{115044C9-F611-46AD-98D2-834DDC34E00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0EF1457-3FC9-4CE8-9800-164D549C116C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0EF1457-3FC9-4CE8-9800-164D549C116C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0EF1457-3FC9-4CE8-9800-164D549C116C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0EF1457-3FC9-4CE8-9800-164D549C116C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC234518-3050-4EF7-937C-7B8938A38F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC234518-3050-4EF7-937C-7B8938A38F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC234518-3050-4EF7-937C-7B8938A38F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC234518-3050-4EF7-937C-7B8938A38F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E5C8076-00B4-4ABC-94EA-BD370E4498FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5C8076-00B4-4ABC-94EA-BD370E4498FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5C8076-00B4-4ABC-94EA-BD370E4498FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E5C8076-00B4-4ABC-94EA-BD370E4498FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7686F27-385A-4B09-850F-5E8488C919D9}
+	EndGlobalSection
+EndGlobal

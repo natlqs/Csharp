@@ -1,0 +1,13 @@
+D:\01_Data\CODE\csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Controls\bin\Debug\Controls.dll
+D:\01_Data\CODE\csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Controls\bin\Debug\Controls.pdb
+D:\01_Data\CODE\csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Controls\obj\Debug\Controls.csproj.AssemblyReference.cache
+D:\01_Data\CODE\csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Controls\obj\Debug\UserControl1.g.cs
+D:\01_Data\CODE\csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Controls\obj\Debug\Controls_MarkupCompile.cache
+D:\01_Data\CODE\csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Controls\obj\Debug\Controls_MarkupCompile.lref
+D:\01_Data\CODE\csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Controls\obj\Debug\UserControl1.baml
+D:\01_Data\CODE\csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Controls\obj\Debug\Controls.g.resources
+D:\01_Data\CODE\csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Controls\obj\Debug\Controls.Properties.Resources.resources
+D:\01_Data\CODE\csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Controls\obj\Debug\Controls.csproj.GenerateResource.cache
+D:\01_Data\CODE\csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Controls\obj\Debug\Controls.csproj.CoreCompileInputs.cache
+D:\01_Data\CODE\csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Controls\obj\Debug\Controls.dll
+D:\01_Data\CODE\csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Controls\obj\Debug\Controls.pdb

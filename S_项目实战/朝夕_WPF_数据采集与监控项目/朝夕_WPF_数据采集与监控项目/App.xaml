@@ -1,0 +1,9 @@
+﻿<Application x:Class="朝夕_WPF_数据采集与监控项目.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:朝夕_WPF_数据采集与监控项目">
+             <!--StartupUri="MainWindow.xaml"-->
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

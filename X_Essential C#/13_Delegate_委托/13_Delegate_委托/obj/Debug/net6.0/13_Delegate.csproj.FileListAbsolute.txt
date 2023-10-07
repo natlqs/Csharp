@@ -1,0 +1,14 @@
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Delegate\bin\Debug\net6.0\13_Delegate.exe
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Delegate\bin\Debug\net6.0\13_Delegate.deps.json
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Delegate\bin\Debug\net6.0\13_Delegate.runtimeconfig.json
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Delegate\bin\Debug\net6.0\13_Delegate.dll
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Delegate\bin\Debug\net6.0\13_Delegate.pdb
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Delegate\obj\Debug\net6.0\13_Delegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Delegate\obj\Debug\net6.0\13_Delegate.AssemblyInfoInputs.cache
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Delegate\obj\Debug\net6.0\13_Delegate.AssemblyInfo.cs
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Delegate\obj\Debug\net6.0\13_Delegate.csproj.CoreCompileInputs.cache
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Delegate\obj\Debug\net6.0\13_Delegate.dll
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Delegate\obj\Debug\net6.0\refint\13_Delegate.dll
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Delegate\obj\Debug\net6.0\13_Delegate.pdb
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Delegate\obj\Debug\net6.0\13_Delegate.genruntimeconfig.cache
+D:\VMcommunicate\CODE\Csharp\X_Essential C#\13_Delegate\13_Delegate\obj\Debug\net6.0\ref\13_Delegate.dll

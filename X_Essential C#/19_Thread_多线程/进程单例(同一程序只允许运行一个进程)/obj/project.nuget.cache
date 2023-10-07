@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "dgSpecHash": "FW23NRUzAjZz3Bpf7DDKOHxqf1P99GNNyljkLg/syJAkTFXfjncVJpAfJp8XeeAWZT8hjWeoEY3cHstOXNp85g==",
+  "success": true,
+  "projectFilePath": "D:\\01_Data\\CODE\\csharp\\X_Essential C#\\19_Thread_多线程\\进程单例(同一程序只允许运行一个进程)\\19_5_进程单例(同一程序只允许运行一个进程).csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+}
