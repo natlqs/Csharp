@@ -1,0 +1,15 @@
+D:\VMcommunicate\CODE\Csharp\T_WPF\01_Hello_WPF\01_Hello_WPF\bin\Debug\01_Hello_WPF.exe.config
+D:\VMcommunicate\CODE\Csharp\T_WPF\01_Hello_WPF\01_Hello_WPF\bin\Debug\01_Hello_WPF.exe
+D:\VMcommunicate\CODE\Csharp\T_WPF\01_Hello_WPF\01_Hello_WPF\bin\Debug\01_Hello_WPF.pdb
+D:\VMcommunicate\CODE\Csharp\T_WPF\01_Hello_WPF\01_Hello_WPF\obj\Debug\01_Hello_WPF.csproj.AssemblyReference.cache
+D:\VMcommunicate\CODE\Csharp\T_WPF\01_Hello_WPF\01_Hello_WPF\obj\Debug\MainWindow.g.cs
+D:\VMcommunicate\CODE\Csharp\T_WPF\01_Hello_WPF\01_Hello_WPF\obj\Debug\App.g.cs
+D:\VMcommunicate\CODE\Csharp\T_WPF\01_Hello_WPF\01_Hello_WPF\obj\Debug\01_Hello_WPF_MarkupCompile.cache
+D:\VMcommunicate\CODE\Csharp\T_WPF\01_Hello_WPF\01_Hello_WPF\obj\Debug\01_Hello_WPF_MarkupCompile.lref
+D:\VMcommunicate\CODE\Csharp\T_WPF\01_Hello_WPF\01_Hello_WPF\obj\Debug\MainWindow.baml
+D:\VMcommunicate\CODE\Csharp\T_WPF\01_Hello_WPF\01_Hello_WPF\obj\Debug\01_Hello_WPF.g.resources
+D:\VMcommunicate\CODE\Csharp\T_WPF\01_Hello_WPF\01_Hello_WPF\obj\Debug\_01_Hello_WPF.Properties.Resources.resources
+D:\VMcommunicate\CODE\Csharp\T_WPF\01_Hello_WPF\01_Hello_WPF\obj\Debug\01_Hello_WPF.csproj.GenerateResource.cache
+D:\VMcommunicate\CODE\Csharp\T_WPF\01_Hello_WPF\01_Hello_WPF\obj\Debug\01_Hello_WPF.csproj.CoreCompileInputs.cache
+D:\VMcommunicate\CODE\Csharp\T_WPF\01_Hello_WPF\01_Hello_WPF\obj\Debug\01_Hello_WPF.exe
+D:\VMcommunicate\CODE\Csharp\T_WPF\01_Hello_WPF\01_Hello_WPF\obj\Debug\01_Hello_WPF.pdb
