@@ -4,3 +4,9 @@ D:\01_Data\CODE\csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Com
 D:\01_Data\CODE\csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Communication\obj\Debug\Communication.csproj.CoreCompileInputs.cache
 D:\01_Data\CODE\csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Communication\obj\Debug\Communication.dll
 D:\01_Data\CODE\csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Communication\obj\Debug\Communication.pdb
+D:\VMcommunicate\CODE\Csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Communication\bin\Debug\Communication.dll
+D:\VMcommunicate\CODE\Csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Communication\bin\Debug\Communication.pdb
+D:\VMcommunicate\CODE\Csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Communication\obj\Debug\Communication.csproj.AssemblyReference.cache
+D:\VMcommunicate\CODE\Csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Communication\obj\Debug\Communication.csproj.CoreCompileInputs.cache
+D:\VMcommunicate\CODE\Csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Communication\obj\Debug\Communication.dll
+D:\VMcommunicate\CODE\Csharp\S_项目实战\朝夕_WPF_数据采集与监控项目\Communication\obj\Debug\Communication.pdb
