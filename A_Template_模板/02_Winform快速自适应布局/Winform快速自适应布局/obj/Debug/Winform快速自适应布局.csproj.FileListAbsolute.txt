@@ -18,3 +18,13 @@ D:\01_Data\CODE\csharp\A_Template_模板\Winform快速自适应布局\Winform快
 D:\01_Data\CODE\csharp\A_Template_模板\Winform快速自适应布局\Winform快速自适应布局\obj\Debug\Winform快速自适应布局.csproj.CoreCompileInputs.cache
 D:\01_Data\CODE\csharp\A_Template_模板\Winform快速自适应布局\Winform快速自适应布局\obj\Debug\Winform快速自适应布局.exe
 D:\01_Data\CODE\csharp\A_Template_模板\Winform快速自适应布局\Winform快速自适应布局\obj\Debug\Winform快速自适应布局.pdb
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\02_Winform快速自适应布局\Winform快速自适应布局\bin\Debug\Winform快速自适应布局.exe.config
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\02_Winform快速自适应布局\Winform快速自适应布局\bin\Debug\Winform快速自适应布局.exe
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\02_Winform快速自适应布局\Winform快速自适应布局\bin\Debug\Winform快速自适应布局.pdb
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\02_Winform快速自适应布局\Winform快速自适应布局\obj\Debug\Winform快速自适应布局.csproj.AssemblyReference.cache
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\02_Winform快速自适应布局\Winform快速自适应布局\obj\Debug\Winform快速自适应布局.Form1.resources
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\02_Winform快速自适应布局\Winform快速自适应布局\obj\Debug\Winform快速自适应布局.Properties.Resources.resources
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\02_Winform快速自适应布局\Winform快速自适应布局\obj\Debug\Winform快速自适应布局.csproj.GenerateResource.cache
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\02_Winform快速自适应布局\Winform快速自适应布局\obj\Debug\Winform快速自适应布局.csproj.CoreCompileInputs.cache
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\02_Winform快速自适应布局\Winform快速自适应布局\obj\Debug\Winform快速自适应布局.exe
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\02_Winform快速自适应布局\Winform快速自适应布局\obj\Debug\Winform快速自适应布局.pdb
