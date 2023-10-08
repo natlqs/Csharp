@@ -36,8 +36,8 @@ namespace 朝夕_WPF_数据采集与监控项目
         }
         protected override void OnExit(ExitEventArgs e)
         {
-            base.OnExit(e);
             GlobalMonitor.Dispose();
+            base.OnExit(e);
         }
     }
 }
