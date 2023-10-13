@@ -22,11 +22,11 @@ namespace 朝夕_WPF_数据采集与监控项目.BLL
             try
             {
                 SerialInfo serialInfo = new SerialInfo();
-                serialInfo.PortName = ConfigurationManager.AppSettings["prot"].ToString();
+                serialInfo.PortName = ConfigurationManager.AppSettings["port"].ToString();
                 serialInfo.BaudRate = int.Parse(ConfigurationManager.AppSettings["baud"].ToString());
                 serialInfo.DataBit = int.Parse(ConfigurationManager.AppSettings["data_bit"].ToString());
                 serialInfo.Parity = (Parity)Enum.Parse(typeof(Parity), ConfigurationManager.AppSettings["parity"].ToString(), true);
-                serialInfo.StopBits = (StopBits)Enum.Parse(typeof(StopBits), ConfigurationManager.AppSettings["stopbit"].ToString(), true);
+                serialInfo.StopBits = (StopBits)Enum.Parse(typeof(StopBits), ConfigurationManager.AppSettings["stop_bit"].ToString(), true);
 
                 result.State = true;
                 result.Data = serialInfo;
@@ -82,7 +82,7 @@ namespace 朝夕_WPF_数据采集与监控项目.BLL
                     deviceList.Add( deviceModel );
                     deviceModel.DeviceID = device.Field<string>("d_id");
                     deviceModel.DeviceName = device.Field<string>("d_name");
-                    foreach ( var monitorValue in monitorValues.AsEnumerable().Where(m => m.Field<string>("id") == deviceModel.DeviceID))
+                    foreach ( var monitorValue in monitorValues.AsEnumerable().Where(m => m.Field<string>("d_id") == deviceModel.DeviceID))
                     {
                         MonitorValueModel monitorValueModel = new MonitorValueModel();
                         deviceModel.MonitorValueList.Add( monitorValueModel );

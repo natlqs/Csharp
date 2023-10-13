@@ -19,9 +19,9 @@ namespace 朝夕_WPF_数据采集与监控项目.Base
         static bool isRunning = true;
         static Task mainTask = null;
         static RTU rtuInstance = null;
-        public static void Start( Action successAciton, Action<string> faultAction)
+        public static void Start(Action successAciton, Action<string> faultAction)
         {
-            mainTask = Task.Run(() =>
+            mainTask = Task.Run(async () =>
             {
                 IndustrialBLL industrialBLL = new IndustrialBLL();
                 // 获取串口配置信息
@@ -44,25 +44,43 @@ namespace 朝夕_WPF_数据采集与监控项目.Base
                     return;
                 }
 
-
                 // 初始化设备变量集合及警戒值
                 var dr = industrialBLL.InitDevices();
-                if(dr.State)
+                if (dr.State)
                     DeviceList = dr.Data;
                 else
                 {
-                    faultAction(dr.Message); 
+                    faultAction(dr.Message);
                     return;
                 }
 
                 // 初始化串口通信
                 rtuInstance = RTU.getInstance(SerialInfo);
+                rtuInstance.ResponseData = new Action<int, List<byte>>(ParsingData);
                 if (rtuInstance.Connection())
                 {
                     successAciton();
+
+                    int startAddr = 0;
                     while (isRunning)
                     {
-
+                        foreach (var item in StorageList)
+                        {
+                            if (item.Length > 100)
+                            {
+                                startAddr = item.StartAddress;
+                                int readCount = item.Length / 100;
+                                for (int i = 0; i < readCount; i++)
+                                {
+                                    int readLen = i == readCount ? item.Length - 100 * i : 100;
+                                    await rtuInstance.Send(item.SlaveAddress, (byte)int.Parse(item.FuncCode), startAddr + 100 * i, readLen);
+                                }
+                            }
+                            if (item.Length % 100 > 0)
+                            {
+                                await rtuInstance.Send(item.SlaveAddress, (byte)int.Parse(item.FuncCode), startAddr + 100 * (item.Length / 100), item.Length % 100);
+                            }
+                        }
                     }
                 }
                 else
@@ -71,11 +89,46 @@ namespace 朝夕_WPF_数据采集与监控项目.Base
                 }
             });
         }
+
+        private static void ParsingData(int start_addr, List<byte> byteList)
+        {
+            if (byteList != null && byteList.Count > 0)
+            {
+                // 查找设备监控点位与当前返回报文数据相关的监控数据列表
+                // 根据从站地址、功能码、起始地址
+                var mvl = (from q in DeviceList
+                           from m in q.MonitorValueList
+                           where m.StorageAreaId == (byteList[0].ToString() + byteList[1].ToString("00") + start_addr.ToString())
+                           //&& q.IsWarning
+                           select m)
+                           .ToList();
+                int startByte;
+                byte[] res = null;
+                foreach (var item in mvl)
+                {
+                    switch (item.DataType)
+                    {
+                        case "Float":
+                            startByte = item.StartAddress * 2 + 3;
+                            if (startByte < start_addr + byteList.Count)
+                            {
+                                res = new byte[4] { byteList[startByte], byteList[startByte + 1], byteList[startByte + 2], byteList[startByte + 3] };
+                                item.CurrentValue = Convert.ToDouble(res.ByteArraysToFloat());
+                            }
+                            break;
+                        case "bool":
+                            break;
+                    }
+                }
+            }
+        }
+
+
         public static void Dispose()
         {
             isRunning = false;
-            
-            if(rtuInstance != null)
+
+            if (rtuInstance != null)
                 rtuInstance.Dispose();
             if (mainTask != null)
             {

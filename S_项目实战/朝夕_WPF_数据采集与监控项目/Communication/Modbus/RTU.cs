@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO.Ports;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -9,6 +10,7 @@ namespace Communication.Modbus
 {
     public class RTU
     {
+        public Action<int, List<byte>> ResponseData;
         private static RTU _instance;
         public static SerialInfo _serialInfo;
 
@@ -18,9 +20,11 @@ namespace Communication.Modbus
         int _currentSlave;
         int _funcCode;
         int _wordLen;
+        int _startAddr;
 
         private RTU(SerialInfo serialInfo)
         {
+            _serialPort = new SerialPort();
             _serialInfo = serialInfo;
         }
         public static RTU getInstance(SerialInfo serialInfo)
@@ -52,7 +56,7 @@ namespace Communication.Modbus
             {
                 return false;
             }
-            return false;
+            return true;
         }
         public void Dispose()
         {
@@ -88,15 +92,8 @@ namespace Communication.Modbus
                     // 检查crc
 
                     // 返回数据
-
-
-
-
-
-
-
+                    ResponseData?.Invoke(_startAddr, new List<byte>(SubByteArray(_byteBuffer, 0, _wordLen + 3)));
                 }
-
             }
 
         }
@@ -105,11 +102,12 @@ namespace Communication.Modbus
         {
             _currentSlave = slaveAddress;
             _funcCode = funcCode;
+            _startAddr = startAddr;
 
             if (funcCode == 0x01)
                 _wordLen = len / 8 + ((len % 8 > 0) ? 1 : 0);
             if (funcCode == 0x03)
-                _wordLen = len;
+                _wordLen = len * 2;
 
 
             List<byte> sendBuffer = new List<byte>();
@@ -132,8 +130,25 @@ namespace Communication.Modbus
                 _is_Busy = false;
                 await Task.Delay(1000);
             }
-            catch { return false; }
+            catch 
+            { 
+                return false; 
+            }
+            _receiveByteCount = 0;
             return true;
+        }
+
+        private byte[] SubByteArray(byte[] byteArr, int start, int len)
+        {
+            byte[] Res = new byte[len];
+            if(byteArr != null && byteArr.Length > len)
+            {
+                for (int i = 0; i< len; i++)
+                {
+                    Res[i] = byteArr[i + start];
+                }
+            }
+            return Res;
         }
 
 

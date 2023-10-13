@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\01_Data\\CODE\\csharp\\X_Essential C#\\13_Delegate\\13_Generic_Delegate_泛型委托\\13_Generic_Delegate_泛型委托.csproj",
+      "projectUniqueName": "D:\\01_Data\\CODE\\csharp\\X_Essential C#\\13_Delegate_委托\\13_Generic_Delegate_泛型委托\\13_Generic_Delegate_泛型委托.csproj",
       "projectName": "13_Generic_Delegate_泛型委托",
-      "projectPath": "D:\\01_Data\\CODE\\csharp\\X_Essential C#\\13_Delegate\\13_Generic_Delegate_泛型委托\\13_Generic_Delegate_泛型委托.csproj",
+      "projectPath": "D:\\01_Data\\CODE\\csharp\\X_Essential C#\\13_Delegate_委托\\13_Generic_Delegate_泛型委托\\13_Generic_Delegate_泛型委托.csproj",
       "packagesPath": "C:\\Users\\natlq\\.nuget\\packages\\",
-      "outputPath": "D:\\01_Data\\CODE\\csharp\\X_Essential C#\\13_Delegate\\13_Generic_Delegate_泛型委托\\obj\\",
+      "outputPath": "D:\\01_Data\\CODE\\csharp\\X_Essential C#\\13_Delegate_委托\\13_Generic_Delegate_泛型委托\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\natlq\\AppData\\Roaming\\NuGet\\NuGet.Config",
