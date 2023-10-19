@@ -47,6 +47,7 @@ namespace 朝夕_WPF_数据采集与监控项目.BLL
             try
             {
                 var sa = dataAccess.GetStorageArea();
+                dataResult.State = true;
                 dataResult.Data = (from q in sa.AsEnumerable()
                               select new StorageModel
                               {
