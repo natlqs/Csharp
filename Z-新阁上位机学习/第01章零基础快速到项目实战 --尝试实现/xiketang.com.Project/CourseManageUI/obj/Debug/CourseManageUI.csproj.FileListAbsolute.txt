@@ -1,0 +1,45 @@
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageUI.exe.config
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageUI.exe
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageUI.pdb
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageBLL.dll
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageModels.dll
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageBLL.pdb
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageModels.pdb
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.csproj.AssemblyReference.cache
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.csproj.SuggestedBindingRedirects.cache
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmAddCourse.resources
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmAdminLogin.resources
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmCourseManage.resources
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmMain.resources
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmModifyPwd.resources
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmTeacherManage.resources
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.Properties.Resources.resources
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.csproj.GenerateResource.cache
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.csproj.CoreCompileInputs.cache
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.csproj.CopyComplete
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.exe
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.pdb
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageDAL.dll
+D:\01_Data\CODE\csharp\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageDAL.pdb
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageUI.exe.config
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageUI.exe
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageUI.pdb
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageBLL.dll
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageModels.dll
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageDAL.dll
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageBLL.pdb
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageModels.pdb
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\bin\Debug\CourseManageDAL.pdb
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.csproj.AssemblyReference.cache
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmAddCourse.resources
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmAdminLogin.resources
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmCourseManage.resources
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmMain.resources
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmModifyPwd.resources
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.FrmTeacherManage.resources
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.Properties.Resources.resources
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.csproj.GenerateResource.cache
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.csproj.CoreCompileInputs.cache
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.csproj.CopyComplete
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.exe
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\xiketang.com.Project\CourseManageUI\obj\Debug\CourseManageUI.pdb

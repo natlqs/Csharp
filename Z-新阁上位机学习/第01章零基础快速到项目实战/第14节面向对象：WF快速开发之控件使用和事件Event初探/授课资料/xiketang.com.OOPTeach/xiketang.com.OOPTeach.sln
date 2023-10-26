@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.OOP.experience", "01.OOP.experience", "{0BA4EAFA-E548-4795-946D-2EC4F290B12A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCalculator", "MyCalculator\MyCalculator.csproj", "{673B7B50-A837-4B7E-95AB-9646213EF5FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCalculator.Optimization", "MyCalculator.Optimization\MyCalculator.Optimization.csproj", "{35533D4B-AB75-423B-BC18-41D2906F8ED7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.OOP.Property", "01.OOP.Property", "{FD6FB427-AE4E-49AD-A50A-58BF8652434B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xiketang.com.PropertyApp", "xiketang.com.PropertyApp\xiketang.com.PropertyApp.csproj", "{EA7DFF1F-5B1F-4945-A392-3D0FE7693400}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.OOP.Method", "02.OOP.Method", "{869EB121-A7E6-40F2-9F7E-9FE337E7F9F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xiketang.com.MethodApp", "xiketang.com.MethodApp\xiketang.com.MethodApp.csproj", "{91A35403-6347-49A0-9908-9762B5133EF1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.OOP.GenericList", "03.OOP.GenericList", "{0C0CFDA5-0927-4536-927C-8F4DA8B0708B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xiketang.com.GenericList", "xiketang.com.GenericList\xiketang.com.GenericList.csproj", "{38CC18AF-9857-47F8-9A13-E03F385AAED0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xiketang.com.ListDataShow", "xiketang.com.ListDataShow\xiketang.com.ListDataShow.csproj", "{95C282B3-2A3B-427C-91DD-71E1C304E3EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.OOP.WinFormBase", "04.OOP.WinFormBase", "{98AC07B1-5C5D-4145-BD81-3E84B97EC631}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xiketang.com.WinformBase", "xiketang.com.WinformBase\xiketang.com.WinformBase.csproj", "{CDD42FC2-D602-4FEF-B8D9-EFA05C8D75B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "..\..\..\..\..\Test\新建文件夹\ConsoleApp1\ConsoleApp1.csproj", "{7942B3EF-F45A-4D47-99F7-4696BC6D1AF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{673B7B50-A837-4B7E-95AB-9646213EF5FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{673B7B50-A837-4B7E-95AB-9646213EF5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{673B7B50-A837-4B7E-95AB-9646213EF5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{673B7B50-A837-4B7E-95AB-9646213EF5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35533D4B-AB75-423B-BC18-41D2906F8ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35533D4B-AB75-423B-BC18-41D2906F8ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35533D4B-AB75-423B-BC18-41D2906F8ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35533D4B-AB75-423B-BC18-41D2906F8ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA7DFF1F-5B1F-4945-A392-3D0FE7693400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7DFF1F-5B1F-4945-A392-3D0FE7693400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7DFF1F-5B1F-4945-A392-3D0FE7693400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7DFF1F-5B1F-4945-A392-3D0FE7693400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91A35403-6347-49A0-9908-9762B5133EF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91A35403-6347-49A0-9908-9762B5133EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91A35403-6347-49A0-9908-9762B5133EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91A35403-6347-49A0-9908-9762B5133EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38CC18AF-9857-47F8-9A13-E03F385AAED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38CC18AF-9857-47F8-9A13-E03F385AAED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38CC18AF-9857-47F8-9A13-E03F385AAED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38CC18AF-9857-47F8-9A13-E03F385AAED0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C282B3-2A3B-427C-91DD-71E1C304E3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C282B3-2A3B-427C-91DD-71E1C304E3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C282B3-2A3B-427C-91DD-71E1C304E3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C282B3-2A3B-427C-91DD-71E1C304E3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD42FC2-D602-4FEF-B8D9-EFA05C8D75B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD42FC2-D602-4FEF-B8D9-EFA05C8D75B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD42FC2-D602-4FEF-B8D9-EFA05C8D75B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD42FC2-D602-4FEF-B8D9-EFA05C8D75B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7942B3EF-F45A-4D47-99F7-4696BC6D1AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7942B3EF-F45A-4D47-99F7-4696BC6D1AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7942B3EF-F45A-4D47-99F7-4696BC6D1AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7942B3EF-F45A-4D47-99F7-4696BC6D1AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{673B7B50-A837-4B7E-95AB-9646213EF5FF} = {0BA4EAFA-E548-4795-946D-2EC4F290B12A}
+		{35533D4B-AB75-423B-BC18-41D2906F8ED7} = {0BA4EAFA-E548-4795-946D-2EC4F290B12A}
+		{EA7DFF1F-5B1F-4945-A392-3D0FE7693400} = {FD6FB427-AE4E-49AD-A50A-58BF8652434B}
+		{91A35403-6347-49A0-9908-9762B5133EF1} = {869EB121-A7E6-40F2-9F7E-9FE337E7F9F7}
+		{38CC18AF-9857-47F8-9A13-E03F385AAED0} = {0C0CFDA5-0927-4536-927C-8F4DA8B0708B}
+		{95C282B3-2A3B-427C-91DD-71E1C304E3EF} = {0C0CFDA5-0927-4536-927C-8F4DA8B0708B}
+		{CDD42FC2-D602-4FEF-B8D9-EFA05C8D75B4} = {98AC07B1-5C5D-4145-BD81-3E84B97EC631}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B67F2C26-E7B4-4E58-A357-C72BE6E62A8D}
+	EndGlobalSection
+EndGlobal

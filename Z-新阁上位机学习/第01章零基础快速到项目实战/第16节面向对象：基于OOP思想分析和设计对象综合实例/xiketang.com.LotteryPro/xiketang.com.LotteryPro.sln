@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xiketang.com.LotteryPro", "xiketang.com.LotteryPro\xiketang.com.LotteryPro.csproj", "{AD22C066-C245-4313-8FC2-E9519F5B9B6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "xiketang.com.NonOOPDemo", "xiketang.com.NonOOPDemo\xiketang.com.NonOOPDemo.csproj", "{AAD6390A-45EA-4055-8DF3-5DACB422667C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD22C066-C245-4313-8FC2-E9519F5B9B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD22C066-C245-4313-8FC2-E9519F5B9B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD22C066-C245-4313-8FC2-E9519F5B9B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD22C066-C245-4313-8FC2-E9519F5B9B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAD6390A-45EA-4055-8DF3-5DACB422667C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD6390A-45EA-4055-8DF3-5DACB422667C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD6390A-45EA-4055-8DF3-5DACB422667C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD6390A-45EA-4055-8DF3-5DACB422667C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7C3FF8AF-0378-47DE-A211-91347FC8DB0E}
+	EndGlobalSection
+EndGlobal

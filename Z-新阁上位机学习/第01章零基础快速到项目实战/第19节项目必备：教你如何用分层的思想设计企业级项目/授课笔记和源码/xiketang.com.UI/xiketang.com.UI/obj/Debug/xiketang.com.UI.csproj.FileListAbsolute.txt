@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.UI\xiketang.com.UI\bin\Debug\xiketang.com.UI.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.UI\xiketang.com.UI\bin\Debug\xiketang.com.UI.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.UI\xiketang.com.UI\bin\Debug\xiketang.com.UI.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.UI\xiketang.com.UI\obj\Debug\xiketang.com.UI.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.UI\xiketang.com.UI\obj\Debug\xiketang.com.UI.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.UI\xiketang.com.UI\obj\Debug\xiketang.com.UI.exe
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.UI\xiketang.com.UI\obj\Debug\xiketang.com.UI.pdb

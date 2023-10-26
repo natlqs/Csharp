@@ -1,0 +1,11 @@
+E:\VMcommunicate\CODE\Csharp\MyCalculator\MyCalculator\bin\Debug\MyCalculator.exe.config
+E:\VMcommunicate\CODE\Csharp\MyCalculator\MyCalculator\bin\Debug\MyCalculator.exe
+E:\VMcommunicate\CODE\Csharp\MyCalculator\MyCalculator\bin\Debug\MyCalculator.pdb
+E:\VMcommunicate\CODE\Csharp\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.AssemblyReference.cache
+E:\VMcommunicate\CODE\Csharp\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.SuggestedBindingRedirects.cache
+E:\VMcommunicate\CODE\Csharp\MyCalculator\MyCalculator\obj\Debug\MyCalculator.FormMain.resources
+E:\VMcommunicate\CODE\Csharp\MyCalculator\MyCalculator\obj\Debug\MyCalculator.Properties.Resources.resources
+E:\VMcommunicate\CODE\Csharp\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.GenerateResource.cache
+E:\VMcommunicate\CODE\Csharp\MyCalculator\MyCalculator\obj\Debug\MyCalculator.csproj.CoreCompileInputs.cache
+E:\VMcommunicate\CODE\Csharp\MyCalculator\MyCalculator\obj\Debug\MyCalculator.exe
+E:\VMcommunicate\CODE\Csharp\MyCalculator\MyCalculator\obj\Debug\MyCalculator.pdb

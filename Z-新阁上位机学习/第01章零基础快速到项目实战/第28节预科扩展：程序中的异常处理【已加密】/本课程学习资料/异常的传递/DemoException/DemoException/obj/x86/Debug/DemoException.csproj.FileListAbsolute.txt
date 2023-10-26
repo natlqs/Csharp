@@ -1,0 +1,26 @@
+C:\Documents and Settings\Administrator\桌面\DemoException\DemoException\bin\Debug\DemoException.exe
+C:\Documents and Settings\Administrator\桌面\DemoException\DemoException\bin\Debug\DemoException.pdb
+C:\Documents and Settings\Administrator\桌面\DemoException\DemoException\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\DemoException\DemoException\obj\x86\Debug\DemoException.exe
+C:\Documents and Settings\Administrator\桌面\DemoException\DemoException\obj\x86\Debug\DemoException.pdb
+E:\01_《喜科堂》教学课件（.NET软件工程师）\104_基于面向对象实现数据访问（ADO.NET）\第4讲：构建高效安全的程序框架\示例代码\03_异常处理\02_异常的即时处理\DemoException\DemoException\obj\x86\Debug\DemoException.exe
+E:\01_《喜科堂》教学课件（.NET软件工程师）\104_基于面向对象实现数据访问（ADO.NET）\第4讲：构建高效安全的程序框架\示例代码\03_异常处理\02_异常的即时处理\DemoException\DemoException\obj\x86\Debug\DemoException.pdb
+L:\IT-Star课程[4]【基础运用】_使用C#编写数据库访问模块（ADO.NET）\第4讲：构建高效安全的程序框架\示例代码\03_异常处理\02_异常的即时处理\DemoException\DemoException\obj\x86\Debug\DemoException.exe
+L:\IT-Star课程[4]【基础运用】_使用C#编写数据库访问模块（ADO.NET）\第4讲：构建高效安全的程序框架\示例代码\03_异常处理\02_异常的即时处理\DemoException\DemoException\obj\x86\Debug\DemoException.pdb
+L:\IT-Star课程[4]【基础运用】_使用C#编写数据库访问模块（ADO.NET）\第4讲：构建高效安全的程序框架\示例代码\03_异常处理\02_异常的即时处理\DemoException\DemoException\bin\Debug\DemoException.exe
+L:\IT-Star课程[4]【基础运用】_使用C#编写数据库访问模块（ADO.NET）\第4讲：构建高效安全的程序框架\示例代码\03_异常处理\02_异常的即时处理\DemoException\DemoException\bin\Debug\DemoException.pdb
+L:\IT-Star课程[4]【基础运用】_使用C#编写数据库访问模块（ADO.NET）\第4讲：构建高效安全的程序框架\示例代码\03_异常处理\02_异常的即时处理\DemoException\DemoException\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\IT-Star\IT-Star课程[4]【基础运用】_面向对象编程中的数据访问（ADO.NET）\视频课堂\第5讲：异常处理与程序框架基础\示例代码\01_异常处理\02_异常处理\DemoException\DemoException\obj\x86\Debug\DemoException.exe
+I:\IT-Star\IT-Star课程[4]【基础运用】_面向对象编程中的数据访问（ADO.NET）\视频课堂\第5讲：异常处理与程序框架基础\示例代码\01_异常处理\02_异常处理\DemoException\DemoException\obj\x86\Debug\DemoException.pdb
+D:\02_中级课程（2014）\课程[2]【项目教学】_轻松开发数据库应用程序（WinForm开发）\第2讲：异常处理与程序框架基础\示例代码\01_异常处理\02_异常处理\DemoException\DemoException\obj\x86\Debug\DemoException.exe
+D:\02_中级课程（2014）\课程[2]【项目教学】_轻松开发数据库应用程序（WinForm开发）\第2讲：异常处理与程序框架基础\示例代码\01_异常处理\02_异常处理\DemoException\DemoException\obj\x86\Debug\DemoException.pdb
+C:\Users\Administrator\Desktop\下载视频\课程[06]【初级综合】：【项目教学】开发CS架构的管理信息系统\本课程学习资料\第1讲：程序中的异常处理\示例代码\02_异常的传递\DemoException\DemoException\obj\x86\Debug\DemoException.exe
+C:\Users\Administrator\Desktop\下载视频\课程[06]【初级综合】：【项目教学】开发CS架构的管理信息系统\本课程学习资料\第1讲：程序中的异常处理\示例代码\02_异常的传递\DemoException\DemoException\obj\x86\Debug\DemoException.pdb
+C:\Users\Administrator\Desktop\下载视频\课程[06]【初级综合】：【项目教学】开发CS架构的管理信息系统\本课程学习资料\第1讲：程序中的异常处理\示例代码\02_异常的传递\DemoException\DemoException\bin\Debug\DemoException.exe
+C:\Users\Administrator\Desktop\下载视频\课程[06]【初级综合】：【项目教学】开发CS架构的管理信息系统\本课程学习资料\第1讲：程序中的异常处理\示例代码\02_异常的传递\DemoException\DemoException\bin\Debug\DemoException.pdb
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第27节预科扩展：程序中的异常处理【已加密】\本课程学习资料\异常的传递\DemoException\DemoException\bin\Debug\DemoException.exe
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第27节预科扩展：程序中的异常处理【已加密】\本课程学习资料\异常的传递\DemoException\DemoException\bin\Debug\DemoException.pdb
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第27节预科扩展：程序中的异常处理【已加密】\本课程学习资料\异常的传递\DemoException\DemoException\obj\x86\Debug\DemoException.csprojAssemblyReference.cache
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第27节预科扩展：程序中的异常处理【已加密】\本课程学习资料\异常的传递\DemoException\DemoException\obj\x86\Debug\DemoException.csproj.CoreCompileInputs.cache
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第27节预科扩展：程序中的异常处理【已加密】\本课程学习资料\异常的传递\DemoException\DemoException\obj\x86\Debug\DemoException.exe
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第27节预科扩展：程序中的异常处理【已加密】\本课程学习资料\异常的传递\DemoException\DemoException\obj\x86\Debug\DemoException.pdb

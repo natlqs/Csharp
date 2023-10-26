@@ -1,0 +1,32 @@
+C:\Documents and Settings\Administrator\桌面\TestException\TestException\bin\Debug\TestException.exe
+C:\Documents and Settings\Administrator\桌面\TestException\TestException\bin\Debug\TestException.pdb
+C:\Documents and Settings\Administrator\桌面\TestException\TestException\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\TestException\TestException\obj\x86\Debug\TestException.exe
+C:\Documents and Settings\Administrator\桌面\TestException\TestException\obj\x86\Debug\TestException.pdb
+H:\我的项目设计\项目计划（XKT）\课程设计与教程编写\DotNetT方向\课程课件（软件开发方向）\104_【初级-管理系统】_使用C#开发Windows应用软件\第3讲：异常处理机制\02_教学课件\示例代码\TestException\TestException\obj\x86\Debug\TestException.exe
+H:\我的项目设计\项目计划（XKT）\课程设计与教程编写\DotNetT方向\课程课件（软件开发方向）\104_【初级-管理系统】_使用C#开发Windows应用软件\第3讲：异常处理机制\02_教学课件\示例代码\TestException\TestException\obj\x86\Debug\TestException.pdb
+H:\我的项目设计\项目计划（XKT）\课程设计与教程编写\DotNetT方向\课程课件（软件开发方向）\104_【初级-管理系统】_使用C#开发Windows应用软件\第3讲：异常处理机制\02_教学课件\示例代码\TestException\TestException\bin\Debug\TestException.exe
+H:\我的项目设计\项目计划（XKT）\课程设计与教程编写\DotNetT方向\课程课件（软件开发方向）\104_【初级-管理系统】_使用C#开发Windows应用软件\第3讲：异常处理机制\02_教学课件\示例代码\TestException\TestException\bin\Debug\TestException.pdb
+H:\我的项目设计\项目计划（XKT）\课程设计与教程编写\DotNetT方向\课程课件（软件开发方向）\104_【初级-管理系统】_使用C#开发Windows应用软件\第3讲：异常处理机制\02_教学课件\示例代码\TestException\TestException\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\01_《喜科堂》教学课件（.NET软件工程师）\104_基于面向对象实现数据访问（ADO.NET）\第4讲：构建高效安全的程序框架\示例代码\03_异常处理\03_在逻辑错误中抛出异常\TestException\TestException\obj\x86\Debug\TestException.exe
+E:\01_《喜科堂》教学课件（.NET软件工程师）\104_基于面向对象实现数据访问（ADO.NET）\第4讲：构建高效安全的程序框架\示例代码\03_异常处理\03_在逻辑错误中抛出异常\TestException\TestException\obj\x86\Debug\TestException.pdb
+L:\IT-Star课程[4]【基础运用】_使用C#编写数据库访问模块（ADO.NET）\第4讲：构建高效安全的程序框架\示例代码\03_异常处理\03_在逻辑错误中抛出异常\TestException\TestException\obj\x86\Debug\TestException.exe
+L:\IT-Star课程[4]【基础运用】_使用C#编写数据库访问模块（ADO.NET）\第4讲：构建高效安全的程序框架\示例代码\03_异常处理\03_在逻辑错误中抛出异常\TestException\TestException\obj\x86\Debug\TestException.pdb
+L:\IT-Star课程[4]【基础运用】_使用C#编写数据库访问模块（ADO.NET）\第4讲：构建高效安全的程序框架\示例代码\03_异常处理\03_在逻辑错误中抛出异常\TestException\TestException\bin\Debug\TestException.exe
+L:\IT-Star课程[4]【基础运用】_使用C#编写数据库访问模块（ADO.NET）\第4讲：构建高效安全的程序框架\示例代码\03_异常处理\03_在逻辑错误中抛出异常\TestException\TestException\bin\Debug\TestException.pdb
+L:\IT-Star课程[4]【基础运用】_使用C#编写数据库访问模块（ADO.NET）\第4讲：构建高效安全的程序框架\示例代码\03_异常处理\03_在逻辑错误中抛出异常\TestException\TestException\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\02_中级课程（2014）\课程[2]【项目教学】_轻松开发数据库应用程序（WinForm开发）\第2讲：异常处理与程序框架基础\示例代码\01_异常处理\03_在逻辑错误中抛出异常\TestException\TestException\obj\x86\Debug\TestException.exe
+D:\02_中级课程（2014）\课程[2]【项目教学】_轻松开发数据库应用程序（WinForm开发）\第2讲：异常处理与程序框架基础\示例代码\01_异常处理\03_在逻辑错误中抛出异常\TestException\TestException\obj\x86\Debug\TestException.pdb
+D:\02_中级课程（2014）\课程[2]【项目教学】_轻松开发数据库应用程序（WinForm开发）\第2讲：异常处理与程序框架基础\示例代码\01_异常处理\03_在逻辑错误中抛出异常\TestException\TestException\bin\Debug\TestException.exe
+D:\02_中级课程（2014）\课程[2]【项目教学】_轻松开发数据库应用程序（WinForm开发）\第2讲：异常处理与程序框架基础\示例代码\01_异常处理\03_在逻辑错误中抛出异常\TestException\TestException\bin\Debug\TestException.pdb
+D:\02_中级课程（2014）\课程[2]【项目教学】_轻松开发数据库应用程序（WinForm开发）\第2讲：异常处理与程序框架基础\示例代码\01_异常处理\03_在逻辑错误中抛出异常\TestException\TestException\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\下载视频\课程[06]【初级综合】：【项目教学】开发CS架构的管理信息系统\本课程学习资料\第1讲：程序中的异常处理\示例代码\03_在逻辑错误中抛出异常\TestException\TestException\obj\x86\Debug\TestException.exe
+C:\Users\Administrator\Desktop\下载视频\课程[06]【初级综合】：【项目教学】开发CS架构的管理信息系统\本课程学习资料\第1讲：程序中的异常处理\示例代码\03_在逻辑错误中抛出异常\TestException\TestException\obj\x86\Debug\TestException.pdb
+C:\Users\Administrator\Desktop\下载视频\课程[06]【初级综合】：【项目教学】开发CS架构的管理信息系统\本课程学习资料\第1讲：程序中的异常处理\示例代码\03_在逻辑错误中抛出异常\TestException\TestException\bin\Debug\TestException.exe
+C:\Users\Administrator\Desktop\下载视频\课程[06]【初级综合】：【项目教学】开发CS架构的管理信息系统\本课程学习资料\第1讲：程序中的异常处理\示例代码\03_在逻辑错误中抛出异常\TestException\TestException\bin\Debug\TestException.pdb
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第27节预科扩展：程序中的异常处理【已加密】\本课程学习资料\在逻辑错误中抛出异常\TestException\TestException\bin\Debug\TestException.exe
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第27节预科扩展：程序中的异常处理【已加密】\本课程学习资料\在逻辑错误中抛出异常\TestException\TestException\bin\Debug\TestException.pdb
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第27节预科扩展：程序中的异常处理【已加密】\本课程学习资料\在逻辑错误中抛出异常\TestException\TestException\obj\x86\Debug\TestException.csprojAssemblyReference.cache
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第27节预科扩展：程序中的异常处理【已加密】\本课程学习资料\在逻辑错误中抛出异常\TestException\TestException\obj\x86\Debug\TestException.csproj.CoreCompileInputs.cache
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第27节预科扩展：程序中的异常处理【已加密】\本课程学习资料\在逻辑错误中抛出异常\TestException\TestException\obj\x86\Debug\TestException.exe
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第27节预科扩展：程序中的异常处理【已加密】\本课程学习资料\在逻辑错误中抛出异常\TestException\TestException\obj\x86\Debug\TestException.pdb

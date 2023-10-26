@@ -1,0 +1,18 @@
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.UI\DAL\bin\Debug\DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.UI\DAL\bin\Debug\DAL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.UI\DAL\bin\Debug\Models.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.UI\DAL\bin\Debug\Models.pdb
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.UI\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.UI\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.UI\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.UI\DAL\obj\Debug\DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2017\Projects\xiketang.com.UI\DAL\obj\Debug\DAL.pdb
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第19节项目必备：教你如何用分层的思想设计企业级项目\授课笔记和源码\xiketang.com.UI\DAL\bin\Debug\DAL.dll
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第19节项目必备：教你如何用分层的思想设计企业级项目\授课笔记和源码\xiketang.com.UI\DAL\bin\Debug\DAL.pdb
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第19节项目必备：教你如何用分层的思想设计企业级项目\授课笔记和源码\xiketang.com.UI\DAL\bin\Debug\Models.dll
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第19节项目必备：教你如何用分层的思想设计企业级项目\授课笔记和源码\xiketang.com.UI\DAL\bin\Debug\Models.pdb
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第19节项目必备：教你如何用分层的思想设计企业级项目\授课笔记和源码\xiketang.com.UI\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第19节项目必备：教你如何用分层的思想设计企业级项目\授课笔记和源码\xiketang.com.UI\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第19节项目必备：教你如何用分层的思想设计企业级项目\授课笔记和源码\xiketang.com.UI\DAL\obj\Debug\DAL.csproj.CopyComplete
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第19节项目必备：教你如何用分层的思想设计企业级项目\授课笔记和源码\xiketang.com.UI\DAL\obj\Debug\DAL.dll
+L:\【03】《.NET工控上位机》VIP班5.0版本\第01章【新阁教育】【编程预科】零基础快速到项目实战【2-3周】\【新阁教育】第19节项目必备：教你如何用分层的思想设计企业级项目\授课笔记和源码\xiketang.com.UI\DAL\obj\Debug\DAL.pdb
