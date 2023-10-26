@@ -56,7 +56,7 @@ namespace SocketProject
             }
 
             // 第三步：调用listen()函数使套接字成为一个监听套接字。
-            socketServer.Listen(10);
+            socketServer.Listen(10);    // 缓冲池的大小，不是同时连接数的大小
 
 
             // 创建一个监听的线程
@@ -65,6 +65,7 @@ namespace SocketProject
                 CheckListening();
             }));
             AddLog(0, "服务器开启成功");
+            this.btn_StartService.Enabled = false;
 
         }
 
@@ -77,6 +78,10 @@ namespace SocketProject
             {
                 // 第四步： 调用accept（）函数来接受客户端的连接，这时就可以和客户端通信了
                 Socket socketClient =  socketServer.Accept();
+
+                string client = socketClient.RemoteEndPoint.ToString();
+                UpdateOnline(client, true);
+
                 Task.Run(new Action(() =>
                 {
                     ReceiveMessage(socketClient);
@@ -96,11 +101,27 @@ namespace SocketProject
                 byte[] buffer = new byte[1024 * 1024 * 10];
                 int length = -1;
                 // 第五步：处理客户端的连接请求。
+                try
+                {
                 length = socketClient.Receive(buffer);
+                }
+                catch (Exception ex)
+                {
+                    AddLog(2, "服务器开启失败: " + ex.Message);
+                }
+                if (length > 0)
+                {
+                    //处理
+                }
+                else
+                {
+                    UpdateOnline(socketClient.RemoteEndPoint.ToString(), false);
+                }
             }
         }
-        #region 接收信息的方法
 
+
+        #region 接收信息的方法
         /// <summary>
         /// 当前时间属性
         /// </summary>
@@ -126,6 +147,53 @@ namespace SocketProject
                 }));
             }
         }
+        #endregion
+
+        #region  在线列表更新
+        private void UpdateOnline(string client, bool operate)
+        {
+            if (!this.list_Online.InvokeRequired)
+            {
+                if(operate)
+                {
+                    this.list_Online.Items.Add(client);
+                }
+                else
+                {
+                    foreach(var item in this.list_Online.Items)
+                    {
+                        if(item == client)
+                        {
+                            this.list_Online.Items.Remove(item);
+                            break;
+                        }
+                    }
+                }
+            }
+            else
+            {
+                Invoke(new Action(() =>
+                {
+                    if (operate)
+                    {
+                        this.list_Online.Items.Add(client);
+                    }
+                    else
+                    {
+                        foreach (string item in this.list_Online.Items)
+                        {
+                            if (item == client)
+                            {
+                                this.list_Online.Items.Remove(item);
+                                break;
+                            }
+                        }
+                    }
+                }));
+            }
+        }
+
+
 
         #endregion
 

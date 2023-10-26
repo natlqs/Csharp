@@ -141,7 +141,7 @@
             // InfoTme
             // 
             this.InfoTme.Text = "日志时间";
-            this.InfoTme.Width = 250;
+            this.InfoTme.Width = 200;
             // 
             // Info
             // 

@@ -24,7 +24,6 @@ D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目�
 D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\bin\Debug\SocketProject.exe
 D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\bin\Debug\SocketProject.pdb
 D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.csproj.AssemblyReference.cache
-D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.csproj.SuggestedBindingRedirects.cache
 D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.FrmTCPServer.resources
 D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.Properties.Resources.resources
 D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.csproj.GenerateResource.cache

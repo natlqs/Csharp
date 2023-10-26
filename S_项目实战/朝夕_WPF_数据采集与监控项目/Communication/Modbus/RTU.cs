@@ -122,7 +122,7 @@ namespace Communication.Modbus
 
             try
             {
-                while (!_is_Busy)
+                while (_is_Busy)
                 {
                 }
                 _is_Busy = true;
