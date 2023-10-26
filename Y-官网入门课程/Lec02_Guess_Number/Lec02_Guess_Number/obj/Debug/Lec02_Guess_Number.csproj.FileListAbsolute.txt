@@ -1,0 +1,8 @@
+E:\VMcommunicate\CODE\Csharp\Lec02_Guess_Number\Lec02_Guess_Number\bin\Debug\Lec02_Guess_Number.exe.config
+E:\VMcommunicate\CODE\Csharp\Lec02_Guess_Number\Lec02_Guess_Number\bin\Debug\Lec02_Guess_Number.exe
+E:\VMcommunicate\CODE\Csharp\Lec02_Guess_Number\Lec02_Guess_Number\bin\Debug\Lec02_Guess_Number.pdb
+E:\VMcommunicate\CODE\Csharp\Lec02_Guess_Number\Lec02_Guess_Number\obj\Debug\Lec02_Guess_Number.csproj.AssemblyReference.cache
+E:\VMcommunicate\CODE\Csharp\Lec02_Guess_Number\Lec02_Guess_Number\obj\Debug\Lec02_Guess_Number.csproj.SuggestedBindingRedirects.cache
+E:\VMcommunicate\CODE\Csharp\Lec02_Guess_Number\Lec02_Guess_Number\obj\Debug\Lec02_Guess_Number.csproj.CoreCompileInputs.cache
+E:\VMcommunicate\CODE\Csharp\Lec02_Guess_Number\Lec02_Guess_Number\obj\Debug\Lec02_Guess_Number.exe
+E:\VMcommunicate\CODE\Csharp\Lec02_Guess_Number\Lec02_Guess_Number\obj\Debug\Lec02_Guess_Number.pdb

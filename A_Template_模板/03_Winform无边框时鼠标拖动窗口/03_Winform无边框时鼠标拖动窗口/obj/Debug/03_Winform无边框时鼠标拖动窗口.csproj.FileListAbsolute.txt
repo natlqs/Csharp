@@ -1,0 +1,10 @@
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\03_Winform无边框时鼠标拖动窗口\03_Winform无边框时鼠标拖动窗口\bin\Debug\03_Winform无边框时鼠标拖动窗口.exe.config
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\03_Winform无边框时鼠标拖动窗口\03_Winform无边框时鼠标拖动窗口\bin\Debug\03_Winform无边框时鼠标拖动窗口.exe
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\03_Winform无边框时鼠标拖动窗口\03_Winform无边框时鼠标拖动窗口\bin\Debug\03_Winform无边框时鼠标拖动窗口.pdb
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\03_Winform无边框时鼠标拖动窗口\03_Winform无边框时鼠标拖动窗口\obj\Debug\03_Winform无边框时鼠标拖动窗口.csproj.AssemblyReference.cache
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\03_Winform无边框时鼠标拖动窗口\03_Winform无边框时鼠标拖动窗口\obj\Debug\_03_Winform无边框时鼠标拖动窗口.Properties.Resources.resources
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\03_Winform无边框时鼠标拖动窗口\03_Winform无边框时鼠标拖动窗口\obj\Debug\03_Winform无边框时鼠标拖动窗口.csproj.GenerateResource.cache
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\03_Winform无边框时鼠标拖动窗口\03_Winform无边框时鼠标拖动窗口\obj\Debug\03_Winform无边框时鼠标拖动窗口.csproj.CoreCompileInputs.cache
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\03_Winform无边框时鼠标拖动窗口\03_Winform无边框时鼠标拖动窗口\obj\Debug\03_Winform无边框时鼠标拖动窗口.exe
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\03_Winform无边框时鼠标拖动窗口\03_Winform无边框时鼠标拖动窗口\obj\Debug\03_Winform无边框时鼠标拖动窗口.pdb
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\03_Winform无边框时鼠标拖动窗口\03_Winform无边框时鼠标拖动窗口\obj\Debug\_03_Winform无边框时鼠标拖动窗口.Form1.resources
