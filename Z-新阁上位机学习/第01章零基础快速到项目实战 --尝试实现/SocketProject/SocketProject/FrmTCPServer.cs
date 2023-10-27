@@ -1,14 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+using System.Net;
+using System.Net.Sockets;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Net.Sockets;
-using System.Net;
 
 namespace SocketProject
 {
@@ -29,7 +23,7 @@ namespace SocketProject
 
         // 申明一个Socket对象
         private Socket socketServer;
-        
+
         /// <summary>
         /// 启动服务
         /// </summary>
@@ -77,7 +71,7 @@ namespace SocketProject
             while (true)
             {
                 // 第四步： 调用accept（）函数来接受客户端的连接，这时就可以和客户端通信了
-                Socket socketClient =  socketServer.Accept();
+                Socket socketClient = socketServer.Accept();
 
                 string client = socketClient.RemoteEndPoint.ToString();
                 UpdateOnline(client, true);
@@ -103,11 +97,12 @@ namespace SocketProject
                 // 第五步：处理客户端的连接请求。
                 try
                 {
-                length = socketClient.Receive(buffer);
+                    length = socketClient.Receive(buffer);
                 }
                 catch (Exception ex)
                 {
                     AddLog(2, "服务器开启失败: " + ex.Message);
+                    return;
                 }
                 if (length > 0)
                 {
@@ -131,9 +126,9 @@ namespace SocketProject
         }
         private void AddLog(int index, string info)
         {
-            if(!this.Lst_Receive.InvokeRequired)
+            if (!this.Lst_Receive.InvokeRequired)
             {
-                ListViewItem lst = new ListViewItem(" "+ CurrentTime, index);
+                ListViewItem lst = new ListViewItem(" " + CurrentTime, index);
                 lst.SubItems.Add(info);
                 Lst_Receive.Items.Insert(0, lst);
             }
@@ -141,7 +136,7 @@ namespace SocketProject
             {
                 Invoke(new Action(() =>
                 {
-                    ListViewItem lst = new ListViewItem("  "+ CurrentTime, index);
+                    ListViewItem lst = new ListViewItem("  " + CurrentTime, index);
                     lst.SubItems.Add(info);
                     Lst_Receive.Items.Insert(0, lst);
                 }));
@@ -154,15 +149,15 @@ namespace SocketProject
         {
             if (!this.list_Online.InvokeRequired)
             {
-                if(operate)
+                if (operate)
                 {
                     this.list_Online.Items.Add(client);
                 }
                 else
                 {
-                    foreach(var item in this.list_Online.Items)
+                    foreach (var item in this.list_Online.Items)
                     {
-                        if(item == client)
+                        if (item == client)
                         {
                             this.list_Online.Items.Remove(item);
                             break;
