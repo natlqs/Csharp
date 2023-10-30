@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
+using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -23,6 +25,9 @@ namespace SocketProject
 
         // 申明一个Socket对象
         private Socket socketServer;
+
+        //创建字典集合，键是ClientIp, 值是SocketClient
+        private Dictionary<string, Socket> CurrentClientlist= new Dictionary<string, Socket>();
 
         /// <summary>
         /// 启动服务
@@ -60,7 +65,6 @@ namespace SocketProject
             }));
             AddLog(0, "服务器开启成功");
             this.btn_StartService.Enabled = false;
-
         }
 
         /// <summary>
@@ -74,6 +78,8 @@ namespace SocketProject
                 Socket socketClient = socketServer.Accept();
 
                 string client = socketClient.RemoteEndPoint.ToString();
+                CurrentClientlist.Add(client, socketClient);
+                AddLog(0, client+"上线了");
                 UpdateOnline(client, true);
 
                 Task.Run(new Action(() =>
@@ -94,6 +100,7 @@ namespace SocketProject
                 // 创建一个缓冲区
                 byte[] buffer = new byte[1024 * 1024 * 10];
                 int length = -1;
+                string client = socketClient.RemoteEndPoint.ToString();
                 // 第五步：处理客户端的连接请求。
                 try
                 {
@@ -101,16 +108,24 @@ namespace SocketProject
                 }
                 catch (Exception ex)
                 {
-                    AddLog(2, "服务器开启失败: " + ex.Message);
-                    return;
+                    UpdateOnline(client, false);
+                    AddLog(0, client + "意外下线了"+ex);
+                    CurrentClientlist.Remove(client);
+                    break;
                 }
                 if (length > 0)
                 {
                     //处理
+                    string msg = Encoding.Default.GetString(buffer, 0, length);
+                    AddLog(0, "来自" + client + ": " + msg);
+                    
                 }
                 else
                 {
-                    UpdateOnline(socketClient.RemoteEndPoint.ToString(), false);
+                    UpdateOnline(client, false);
+                    AddLog(0, client + "下线了");
+                    CurrentClientlist.Remove(client);
+                    break;
                 }
             }
         }
@@ -157,7 +172,7 @@ namespace SocketProject
                 {
                     foreach (var item in this.list_Online.Items)
                     {
-                        if (item == client)
+                        if (item.ToString()== client)
                         {
                             this.list_Online.Items.Remove(item);
                             break;
@@ -192,5 +207,45 @@ namespace SocketProject
 
         #endregion
 
+        private void btn_Send_Message_Click(object sender, EventArgs e)
+        {
+            if(this.list_Online.SelectedItems != null)
+            {
+                foreach(var item in this.list_Online.SelectedItems)
+                {
+                    string client = item.ToString();
+                    CurrentClientlist[client].Send(Encoding.Default.GetBytes(this.text_Sender.Text.Trim()));
+
+                }
+                AddLog(0, "发送内容："+this.text_Sender.Text.Trim());
+
+            }
+            else
+            {
+                MessageBox.Show("请选择你要发送的客户端对象!");
+            }
+
+        }
+
+        private void btn_Send_all_Click(object sender, EventArgs e)
+        {
+            if(this.list_Online.Items.Count > 0)
+            {
+                foreach (string item in this.list_Online.Items)
+                {
+                    CurrentClientlist[item].Send(Encoding.Default.GetBytes(this.text_Sender.Text.Trim()));
+                }
+            }
+            else
+            {
+                MessageBox.Show("当前连接的客户端对象数量为0！","发送消息");
+            }
+        }
+
+        private void btn_Client_Click(object sender, EventArgs e)
+        {
+            new FrmTCPClient().Show();
+
+        }
     }
 }

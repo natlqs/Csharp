@@ -1,6 +1,6 @@
 ﻿namespace SocketProject
 {
-    partial class FrmTCPServer
+    partial class FrmTCPClient
     {
         /// <summary>
         /// 必需的设计器变量。
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmTCPServer));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmTCPClient));
             this.label1 = new System.Windows.Forms.Label();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.button1 = new System.Windows.Forms.Button();
@@ -39,12 +39,11 @@
             this.InfoTme = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Info = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.imageList = new System.Windows.Forms.ImageList(this.components);
-            this.btn_Send_File = new System.Windows.Forms.Button();
-            this.btn_Send_all = new System.Windows.Forms.Button();
-            this.btn_Send_Message = new System.Windows.Forms.Button();
-            this.btn_Client = new System.Windows.Forms.Button();
-            this.btn_StartService = new System.Windows.Forms.Button();
-            this.list_Online = new System.Windows.Forms.ListBox();
+            this.text_UserName = new System.Windows.Forms.TextBox();
+            this.btn_SendJson = new System.Windows.Forms.Button();
+            this.btn_SendFile = new System.Windows.Forms.Button();
+            this.btn_SendMsg = new System.Windows.Forms.Button();
+            this.btn_Connect = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.text_Port = new System.Windows.Forms.TextBox();
@@ -58,14 +57,14 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.label1.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(10, 10);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(1047, 88);
             this.label1.TabIndex = 0;
-            this.label1.Text = "TCP传输服务器";
+            this.label1.Text = "TCP传输客户端";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // splitContainer1
@@ -84,12 +83,11 @@
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.btn_Send_File);
-            this.splitContainer1.Panel2.Controls.Add(this.btn_Send_all);
-            this.splitContainer1.Panel2.Controls.Add(this.btn_Send_Message);
-            this.splitContainer1.Panel2.Controls.Add(this.btn_Client);
-            this.splitContainer1.Panel2.Controls.Add(this.btn_StartService);
-            this.splitContainer1.Panel2.Controls.Add(this.list_Online);
+            this.splitContainer1.Panel2.Controls.Add(this.text_UserName);
+            this.splitContainer1.Panel2.Controls.Add(this.btn_SendJson);
+            this.splitContainer1.Panel2.Controls.Add(this.btn_SendFile);
+            this.splitContainer1.Panel2.Controls.Add(this.btn_SendMsg);
+            this.splitContainer1.Panel2.Controls.Add(this.btn_Connect);
             this.splitContainer1.Panel2.Controls.Add(this.label4);
             this.splitContainer1.Panel2.Controls.Add(this.label3);
             this.splitContainer1.Panel2.Controls.Add(this.text_Port);
@@ -158,64 +156,51 @@
             this.imageList.Images.SetKeyName(1, "warning.ico");
             this.imageList.Images.SetKeyName(2, "error.ico");
             // 
-            // btn_Send_File
+            // text_UserName
             // 
-            this.btn_Send_File.Location = new System.Drawing.Point(95, 492);
-            this.btn_Send_File.Name = "btn_Send_File";
-            this.btn_Send_File.Size = new System.Drawing.Size(126, 33);
-            this.btn_Send_File.TabIndex = 3;
-            this.btn_Send_File.Text = "发送文件";
-            this.btn_Send_File.UseVisualStyleBackColor = true;
+            this.text_UserName.Location = new System.Drawing.Point(112, 139);
+            this.text_UserName.Name = "text_UserName";
+            this.text_UserName.Size = new System.Drawing.Size(234, 24);
+            this.text_UserName.TabIndex = 4;
+            this.text_UserName.Text = "natlqs";
             // 
-            // btn_Send_all
+            // btn_SendJson
             // 
-            this.btn_Send_all.Location = new System.Drawing.Point(95, 446);
-            this.btn_Send_all.Name = "btn_Send_all";
-            this.btn_Send_all.Size = new System.Drawing.Size(126, 33);
-            this.btn_Send_all.TabIndex = 3;
-            this.btn_Send_all.Text = "群发消息";
-            this.btn_Send_all.UseVisualStyleBackColor = true;
-            this.btn_Send_all.Click += new System.EventHandler(this.btn_Send_all_Click);
+            this.btn_SendJson.Location = new System.Drawing.Point(86, 467);
+            this.btn_SendJson.Name = "btn_SendJson";
+            this.btn_SendJson.Size = new System.Drawing.Size(184, 49);
+            this.btn_SendJson.TabIndex = 3;
+            this.btn_SendJson.Text = "发送JSON对象";
+            this.btn_SendJson.UseVisualStyleBackColor = true;
             // 
-            // btn_Send_Message
+            // btn_SendFile
             // 
-            this.btn_Send_Message.Location = new System.Drawing.Point(95, 397);
-            this.btn_Send_Message.Name = "btn_Send_Message";
-            this.btn_Send_Message.Size = new System.Drawing.Size(126, 33);
-            this.btn_Send_Message.TabIndex = 3;
-            this.btn_Send_Message.Text = "发送消息";
-            this.btn_Send_Message.UseVisualStyleBackColor = true;
-            this.btn_Send_Message.Click += new System.EventHandler(this.btn_Send_Message_Click);
+            this.btn_SendFile.Location = new System.Drawing.Point(86, 376);
+            this.btn_SendFile.Name = "btn_SendFile";
+            this.btn_SendFile.Size = new System.Drawing.Size(184, 49);
+            this.btn_SendFile.TabIndex = 3;
+            this.btn_SendFile.Text = "发送文件";
+            this.btn_SendFile.UseVisualStyleBackColor = true;
             // 
-            // btn_Client
+            // btn_SendMsg
             // 
-            this.btn_Client.Location = new System.Drawing.Point(95, 346);
-            this.btn_Client.Name = "btn_Client";
-            this.btn_Client.Size = new System.Drawing.Size(126, 33);
-            this.btn_Client.TabIndex = 3;
-            this.btn_Client.Text = "启用客户端";
-            this.btn_Client.UseVisualStyleBackColor = true;
-            this.btn_Client.Click += new System.EventHandler(this.btn_Client_Click);
+            this.btn_SendMsg.Location = new System.Drawing.Point(86, 289);
+            this.btn_SendMsg.Name = "btn_SendMsg";
+            this.btn_SendMsg.Size = new System.Drawing.Size(184, 49);
+            this.btn_SendMsg.TabIndex = 3;
+            this.btn_SendMsg.Text = "发送消息";
+            this.btn_SendMsg.UseVisualStyleBackColor = true;
+            this.btn_SendMsg.Click += new System.EventHandler(this.btn_SendMsg_Click);
             // 
-            // btn_StartService
+            // btn_Connect
             // 
-            this.btn_StartService.Location = new System.Drawing.Point(95, 293);
-            this.btn_StartService.Name = "btn_StartService";
-            this.btn_StartService.Size = new System.Drawing.Size(126, 33);
-            this.btn_StartService.TabIndex = 3;
-            this.btn_StartService.Text = "启动服务";
-            this.btn_StartService.UseVisualStyleBackColor = true;
-            this.btn_StartService.Click += new System.EventHandler(this.btn_StartService_Click);
-            // 
-            // list_Online
-            // 
-            this.list_Online.FormattingEnabled = true;
-            this.list_Online.ItemHeight = 17;
-            this.list_Online.Location = new System.Drawing.Point(17, 171);
-            this.list_Online.Name = "list_Online";
-            this.list_Online.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
-            this.list_Online.Size = new System.Drawing.Size(329, 106);
-            this.list_Online.TabIndex = 2;
+            this.btn_Connect.Location = new System.Drawing.Point(86, 205);
+            this.btn_Connect.Name = "btn_Connect";
+            this.btn_Connect.Size = new System.Drawing.Size(184, 49);
+            this.btn_Connect.TabIndex = 3;
+            this.btn_Connect.Text = "连接服务器";
+            this.btn_Connect.UseVisualStyleBackColor = true;
+            this.btn_Connect.Click += new System.EventHandler(this.btn_Connect_Click);
             // 
             // label4
             // 
@@ -224,7 +209,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(68, 17);
             this.label4.TabIndex = 1;
-            this.label4.Text = "在线列表：";
+            this.label4.Text = "用户名称：";
             // 
             // label3
             // 
@@ -239,7 +224,6 @@
             // 
             this.text_Port.Location = new System.Drawing.Point(112, 81);
             this.text_Port.Name = "text_Port";
-            this.text_Port.ReadOnly = true;
             this.text_Port.Size = new System.Drawing.Size(234, 24);
             this.text_Port.TabIndex = 0;
             this.text_Port.Text = "8001";
@@ -257,12 +241,11 @@
             // 
             this.text_IP.Location = new System.Drawing.Point(112, 22);
             this.text_IP.Name = "text_IP";
-            this.text_IP.ReadOnly = true;
             this.text_IP.Size = new System.Drawing.Size(234, 24);
             this.text_IP.TabIndex = 0;
             this.text_IP.Text = "127.0.0.1";
             // 
-            // FrmTCPServer
+            // FrmTCPClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -274,10 +257,11 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
-            this.Name = "FrmTCPServer";
+            this.Name = "FrmTCPClient";
             this.Padding = new System.Windows.Forms.Padding(10);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " 基于Socket实现的TCP服务器";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmTCPClient_FormClosing);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
@@ -296,11 +280,7 @@
         private System.Windows.Forms.ListView Lst_Receive;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox text_File;
-        private System.Windows.Forms.Button btn_Send_File;
-        private System.Windows.Forms.Button btn_Send_all;
-        private System.Windows.Forms.Button btn_Send_Message;
-        private System.Windows.Forms.Button btn_StartService;
-        private System.Windows.Forms.ListBox list_Online;
+        private System.Windows.Forms.Button btn_Connect;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox text_Port;
@@ -309,7 +289,10 @@
         private System.Windows.Forms.ColumnHeader InfoTme;
         private System.Windows.Forms.ColumnHeader Info;
         private System.Windows.Forms.ImageList imageList;
-        private System.Windows.Forms.Button btn_Client;
+        private System.Windows.Forms.TextBox text_UserName;
+        private System.Windows.Forms.Button btn_SendFile;
+        private System.Windows.Forms.Button btn_SendMsg;
+        private System.Windows.Forms.Button btn_SendJson;
     }
 }
 

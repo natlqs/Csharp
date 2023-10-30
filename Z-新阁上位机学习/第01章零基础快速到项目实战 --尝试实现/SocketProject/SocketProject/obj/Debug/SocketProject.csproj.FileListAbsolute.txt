@@ -40,3 +40,4 @@ D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到�
 D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.csproj.CoreCompileInputs.cache
 D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.exe
 D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.pdb
+D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.FrmTCPClient.resources
