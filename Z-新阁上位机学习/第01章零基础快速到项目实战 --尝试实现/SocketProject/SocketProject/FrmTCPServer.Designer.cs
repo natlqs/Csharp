@@ -41,6 +41,9 @@
             this.imageList = new System.Windows.Forms.ImageList(this.components);
             this.btn_Send_File = new System.Windows.Forms.Button();
             this.btn_Send_all = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.btn_Send_Message = new System.Windows.Forms.Button();
             this.btn_Client = new System.Windows.Forms.Button();
             this.btn_StartService = new System.Windows.Forms.Button();
@@ -86,6 +89,9 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.btn_Send_File);
             this.splitContainer1.Panel2.Controls.Add(this.btn_Send_all);
+            this.splitContainer1.Panel2.Controls.Add(this.button4);
+            this.splitContainer1.Panel2.Controls.Add(this.button3);
+            this.splitContainer1.Panel2.Controls.Add(this.button2);
             this.splitContainer1.Panel2.Controls.Add(this.btn_Send_Message);
             this.splitContainer1.Panel2.Controls.Add(this.btn_Client);
             this.splitContainer1.Panel2.Controls.Add(this.btn_StartService);
@@ -160,51 +166,91 @@
             // 
             // btn_Send_File
             // 
-            this.btn_Send_File.Location = new System.Drawing.Point(95, 492);
+            this.btn_Send_File.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn_Send_File.Location = new System.Drawing.Point(198, 417);
             this.btn_Send_File.Name = "btn_Send_File";
-            this.btn_Send_File.Size = new System.Drawing.Size(126, 33);
+            this.btn_Send_File.Size = new System.Drawing.Size(126, 48);
             this.btn_Send_File.TabIndex = 3;
             this.btn_Send_File.Text = "发送文件";
-            this.btn_Send_File.UseVisualStyleBackColor = true;
+            this.btn_Send_File.UseVisualStyleBackColor = false;
             // 
             // btn_Send_all
             // 
-            this.btn_Send_all.Location = new System.Drawing.Point(95, 446);
+            this.btn_Send_all.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btn_Send_all.Location = new System.Drawing.Point(198, 476);
             this.btn_Send_all.Name = "btn_Send_all";
-            this.btn_Send_all.Size = new System.Drawing.Size(126, 33);
+            this.btn_Send_all.Size = new System.Drawing.Size(126, 48);
             this.btn_Send_all.TabIndex = 3;
             this.btn_Send_all.Text = "群发消息";
-            this.btn_Send_all.UseVisualStyleBackColor = true;
+            this.btn_Send_all.UseVisualStyleBackColor = false;
             this.btn_Send_all.Click += new System.EventHandler(this.btn_Send_all_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.button4.Location = new System.Drawing.Point(34, 476);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(126, 48);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "发送JSON";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.btn_Send_Message_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button3.Location = new System.Drawing.Point(34, 417);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(126, 48);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "发送Hex";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.btn_Send_Message_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button2.Location = new System.Drawing.Point(198, 359);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(126, 48);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "发送UTF8";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.btn_Send_Message_Click);
             // 
             // btn_Send_Message
             // 
-            this.btn_Send_Message.Location = new System.Drawing.Point(95, 397);
+            this.btn_Send_Message.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btn_Send_Message.Location = new System.Drawing.Point(34, 359);
             this.btn_Send_Message.Name = "btn_Send_Message";
-            this.btn_Send_Message.Size = new System.Drawing.Size(126, 33);
+            this.btn_Send_Message.Size = new System.Drawing.Size(126, 48);
             this.btn_Send_Message.TabIndex = 3;
-            this.btn_Send_Message.Text = "发送消息";
-            this.btn_Send_Message.UseVisualStyleBackColor = true;
+            this.btn_Send_Message.Text = "发送ASCII";
+            this.btn_Send_Message.UseVisualStyleBackColor = false;
             this.btn_Send_Message.Click += new System.EventHandler(this.btn_Send_Message_Click);
             // 
             // btn_Client
             // 
-            this.btn_Client.Location = new System.Drawing.Point(95, 346);
+            this.btn_Client.BackColor = System.Drawing.Color.Cyan;
+            this.btn_Client.Font = new System.Drawing.Font("Arial Black", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Client.Location = new System.Drawing.Point(198, 292);
             this.btn_Client.Name = "btn_Client";
-            this.btn_Client.Size = new System.Drawing.Size(126, 33);
+            this.btn_Client.Size = new System.Drawing.Size(136, 52);
             this.btn_Client.TabIndex = 3;
             this.btn_Client.Text = "启用客户端";
-            this.btn_Client.UseVisualStyleBackColor = true;
+            this.btn_Client.UseVisualStyleBackColor = false;
             this.btn_Client.Click += new System.EventHandler(this.btn_Client_Click);
             // 
             // btn_StartService
             // 
-            this.btn_StartService.Location = new System.Drawing.Point(95, 293);
+            this.btn_StartService.BackColor = System.Drawing.Color.Lime;
+            this.btn_StartService.Font = new System.Drawing.Font("Arial Black", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_StartService.Location = new System.Drawing.Point(24, 292);
             this.btn_StartService.Name = "btn_StartService";
-            this.btn_StartService.Size = new System.Drawing.Size(126, 33);
+            this.btn_StartService.Size = new System.Drawing.Size(136, 52);
             this.btn_StartService.TabIndex = 3;
             this.btn_StartService.Text = "启动服务";
-            this.btn_StartService.UseVisualStyleBackColor = true;
+            this.btn_StartService.UseVisualStyleBackColor = false;
             this.btn_StartService.Click += new System.EventHandler(this.btn_StartService_Click);
             // 
             // list_Online
@@ -266,6 +312,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(1067, 650);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.label1);
@@ -310,6 +357,9 @@
         private System.Windows.Forms.ColumnHeader Info;
         private System.Windows.Forms.ImageList imageList;
         private System.Windows.Forms.Button btn_Client;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
     }
 }
 

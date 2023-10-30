@@ -3,11 +3,21 @@ using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.XPath;
 
 namespace SocketProject
 {
+    public enum MessageType
+    {
+        ASCII,
+        UTF8,
+        Hex,
+        File,
+        JSON
+    }
     public partial class FrmTCPServer : Form
     {
         public FrmTCPServer()
@@ -89,6 +99,7 @@ namespace SocketProject
             }
         }
 
+        #region 多线程接收数据
         /// <summary>
         /// 接受客户端数据的方法体
         /// </summary>
@@ -113,12 +124,33 @@ namespace SocketProject
                     CurrentClientlist.Remove(client);
                     break;
                 }
+
+
+                string msg = string.Empty;
                 if (length > 0)
                 {
-                    //处理
-                    string msg = Encoding.Default.GetString(buffer, 0, length);
-                    AddLog(0, "来自" + client + ": " + msg);
-                    
+                    MessageType type = (MessageType)buffer[0];
+                    switch (type)
+                    {
+                        case MessageType.ASCII:
+                            msg = Encoding.ASCII.GetString(buffer, 1, length-1);
+                            AddLog(0, client + ": " + msg);
+                            break;
+                        case MessageType.UTF8:
+                            msg = Encoding.UTF8.GetString(buffer, 1, length-1);
+                            AddLog(0, client + ": " + msg);
+                            break;
+                        case MessageType.Hex:
+                             msg = HexGetString(buffer, 1, length-1);
+                            AddLog(0, client + ": " + msg);
+                            break;
+                        case MessageType.File:
+                            break;
+                        case MessageType.JSON:
+                            break;
+                        default:
+                            break;
+                    }
                 }
                 else
                 {
@@ -129,7 +161,7 @@ namespace SocketProject
                 }
             }
         }
-
+        #endregion
 
         #region 接收信息的方法
         /// <summary>
@@ -207,6 +239,7 @@ namespace SocketProject
 
         #endregion
 
+        #region 发送信息
         private void btn_Send_Message_Click(object sender, EventArgs e)
         {
             if(this.list_Online.SelectedItems != null)
@@ -226,7 +259,40 @@ namespace SocketProject
             }
 
         }
+        #endregion
 
+        #region 16进制字符串处理
+        private string HexGetString(byte[] buffer, int start, int length)
+        {
+            string result = string.Empty;
+            if (buffer != null && buffer.Length >= start + length)
+            {
+                // 截取字节数组
+                byte[] res = new byte[length];
+                Array.Copy(buffer, start, res, 0, length);
+                string Hex = Encoding.Default.GetString(res, 0, res.Length);
+                if (Hex.Contains(" "))
+                {
+                    string[] str = Regex.Split(Hex, "\\s+", RegexOptions.IgnoreCase);
+                    foreach (var item in str)
+                    {
+                        result += "0x" + item + " ";
+                    }
+                }
+                else
+                {
+                    result += "0x" + Hex;
+                }
+            }
+            else
+            {
+                result = "Error";
+            }
+            return result;
+        }
+        #endregion
+
+        #region 发送信息给所有客户端
         private void btn_Send_all_Click(object sender, EventArgs e)
         {
             if(this.list_Online.Items.Count > 0)
@@ -241,6 +307,7 @@ namespace SocketProject
                 MessageBox.Show("当前连接的客户端对象数量为0！","发送消息");
             }
         }
+        #endregion
 
         private void btn_Client_Click(object sender, EventArgs e)
         {

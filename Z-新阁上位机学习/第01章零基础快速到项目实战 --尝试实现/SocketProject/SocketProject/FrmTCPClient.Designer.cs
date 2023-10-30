@@ -40,15 +40,24 @@
             this.Info = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.imageList = new System.Windows.Forms.ImageList(this.components);
             this.text_UserName = new System.Windows.Forms.TextBox();
-            this.btn_SendJson = new System.Windows.Forms.Button();
-            this.btn_SendFile = new System.Windows.Forms.Button();
-            this.btn_SendMsg = new System.Windows.Forms.Button();
             this.btn_Connect = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.text_Port = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.text_IP = new System.Windows.Forms.TextBox();
+            this.btn_Send_File = new System.Windows.Forms.Button();
+            this.btn_Send_all = new System.Windows.Forms.Button();
+            this.btn_Send_JSON = new System.Windows.Forms.Button();
+            this.btn_Send_Hex = new System.Windows.Forms.Button();
+            this.btn_Send_UTF8 = new System.Windows.Forms.Button();
+            this.btn_Send_ASCII = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.btn_Disconn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -81,12 +90,21 @@
             this.splitContainer1.Panel1.Controls.Add(this.Lst_Receive);
             this.splitContainer1.Panel1.Padding = new System.Windows.Forms.Padding(10);
             // 
-            // splitContainer1.Panel2
             // 
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.btn_Send_File);
+            this.splitContainer1.Panel2.Controls.Add(this.btn_Send_all);
+            this.splitContainer1.Panel2.Controls.Add(this.btn_Send_JSON);
+            this.splitContainer1.Panel2.Controls.Add(this.btn_Send_Hex);
+            this.splitContainer1.Panel2.Controls.Add(this.btn_Send_UTF8);
+            this.splitContainer1.Panel2.Controls.Add(this.btn_Send_ASCII);
+            this.splitContainer1.Panel2.Controls.Add(this.label5);
+            this.splitContainer1.Panel2.Controls.Add(this.label6);
+            this.splitContainer1.Panel2.Controls.Add(this.textBox1);
+            this.splitContainer1.Panel2.Controls.Add(this.label7);
+            this.splitContainer1.Panel2.Controls.Add(this.textBox2);
             this.splitContainer1.Panel2.Controls.Add(this.text_UserName);
-            this.splitContainer1.Panel2.Controls.Add(this.btn_SendJson);
-            this.splitContainer1.Panel2.Controls.Add(this.btn_SendFile);
-            this.splitContainer1.Panel2.Controls.Add(this.btn_SendMsg);
+            this.splitContainer1.Panel2.Controls.Add(this.btn_Disconn);
             this.splitContainer1.Panel2.Controls.Add(this.btn_Connect);
             this.splitContainer1.Panel2.Controls.Add(this.label4);
             this.splitContainer1.Panel2.Controls.Add(this.label3);
@@ -164,42 +182,16 @@
             this.text_UserName.TabIndex = 4;
             this.text_UserName.Text = "natlqs";
             // 
-            // btn_SendJson
-            // 
-            this.btn_SendJson.Location = new System.Drawing.Point(86, 467);
-            this.btn_SendJson.Name = "btn_SendJson";
-            this.btn_SendJson.Size = new System.Drawing.Size(184, 49);
-            this.btn_SendJson.TabIndex = 3;
-            this.btn_SendJson.Text = "发送JSON对象";
-            this.btn_SendJson.UseVisualStyleBackColor = true;
-            // 
-            // btn_SendFile
-            // 
-            this.btn_SendFile.Location = new System.Drawing.Point(86, 376);
-            this.btn_SendFile.Name = "btn_SendFile";
-            this.btn_SendFile.Size = new System.Drawing.Size(184, 49);
-            this.btn_SendFile.TabIndex = 3;
-            this.btn_SendFile.Text = "发送文件";
-            this.btn_SendFile.UseVisualStyleBackColor = true;
-            // 
-            // btn_SendMsg
-            // 
-            this.btn_SendMsg.Location = new System.Drawing.Point(86, 289);
-            this.btn_SendMsg.Name = "btn_SendMsg";
-            this.btn_SendMsg.Size = new System.Drawing.Size(184, 49);
-            this.btn_SendMsg.TabIndex = 3;
-            this.btn_SendMsg.Text = "发送消息";
-            this.btn_SendMsg.UseVisualStyleBackColor = true;
-            this.btn_SendMsg.Click += new System.EventHandler(this.btn_SendMsg_Click);
-            // 
             // btn_Connect
             // 
-            this.btn_Connect.Location = new System.Drawing.Point(86, 205);
+            this.btn_Connect.BackColor = System.Drawing.Color.Lime;
+            this.btn_Connect.Font = new System.Drawing.Font("Arial Black", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Connect.Location = new System.Drawing.Point(19, 198);
             this.btn_Connect.Name = "btn_Connect";
-            this.btn_Connect.Size = new System.Drawing.Size(184, 49);
+            this.btn_Connect.Size = new System.Drawing.Size(141, 66);
             this.btn_Connect.TabIndex = 3;
             this.btn_Connect.Text = "连接服务器";
-            this.btn_Connect.UseVisualStyleBackColor = true;
+            this.btn_Connect.UseVisualStyleBackColor = false;
             this.btn_Connect.Click += new System.EventHandler(this.btn_Connect_Click);
             // 
             // label4
@@ -245,10 +237,131 @@
             this.text_IP.TabIndex = 0;
             this.text_IP.Text = "127.0.0.1";
             // 
+            // btn_Send_File
+            // 
+            this.btn_Send_File.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btn_Send_File.Location = new System.Drawing.Point(198, 387);
+            this.btn_Send_File.Name = "btn_Send_File";
+            this.btn_Send_File.Size = new System.Drawing.Size(126, 49);
+            this.btn_Send_File.TabIndex = 3;
+            this.btn_Send_File.Text = "发送文件";
+            this.btn_Send_File.UseVisualStyleBackColor = false;
+            // 
+            // btn_Send_all
+            // 
+            this.btn_Send_all.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btn_Send_all.Location = new System.Drawing.Point(198, 476);
+            this.btn_Send_all.Name = "btn_Send_all";
+            this.btn_Send_all.Size = new System.Drawing.Size(126, 49);
+            this.btn_Send_all.TabIndex = 3;
+            this.btn_Send_all.Text = "群发消息";
+            this.btn_Send_all.UseVisualStyleBackColor = false;
+            // 
+            // btn_Send_JSON
+            // 
+            this.btn_Send_JSON.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btn_Send_JSON.Location = new System.Drawing.Point(34, 476);
+            this.btn_Send_JSON.Name = "btn_Send_JSON";
+            this.btn_Send_JSON.Size = new System.Drawing.Size(126, 49);
+            this.btn_Send_JSON.TabIndex = 3;
+            this.btn_Send_JSON.Text = "发送JSON";
+            this.btn_Send_JSON.UseVisualStyleBackColor = false;
+            // 
+            // btn_Send_Hex
+            // 
+            this.btn_Send_Hex.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btn_Send_Hex.Location = new System.Drawing.Point(34, 387);
+            this.btn_Send_Hex.Name = "btn_Send_Hex";
+            this.btn_Send_Hex.Size = new System.Drawing.Size(126, 49);
+            this.btn_Send_Hex.TabIndex = 3;
+            this.btn_Send_Hex.Text = "发送Hex";
+            this.btn_Send_Hex.UseVisualStyleBackColor = false;
+            this.btn_Send_Hex.Click += new System.EventHandler(this.btn_Send_Hex_Click);
+            // 
+            // btn_Send_UTF8
+            // 
+            this.btn_Send_UTF8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btn_Send_UTF8.Location = new System.Drawing.Point(198, 295);
+            this.btn_Send_UTF8.Name = "btn_Send_UTF8";
+            this.btn_Send_UTF8.Size = new System.Drawing.Size(126, 49);
+            this.btn_Send_UTF8.TabIndex = 3;
+            this.btn_Send_UTF8.Text = "发送UTF8";
+            this.btn_Send_UTF8.UseVisualStyleBackColor = false;
+            this.btn_Send_UTF8.Click += new System.EventHandler(this.btn_Send_UTF8_Click);
+            // 
+            // btn_Send_ASCII
+            // 
+            this.btn_Send_ASCII.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.btn_Send_ASCII.Location = new System.Drawing.Point(34, 295);
+            this.btn_Send_ASCII.Name = "btn_Send_ASCII";
+            this.btn_Send_ASCII.Size = new System.Drawing.Size(126, 49);
+            this.btn_Send_ASCII.TabIndex = 3;
+            this.btn_Send_ASCII.Text = "发送ASCII";
+            this.btn_Send_ASCII.UseVisualStyleBackColor = false;
+            this.btn_Send_ASCII.Click += new System.EventHandler(this.btn_Send_ASCII_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(12, 142);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(68, 17);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "在线列表：";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(12, 88);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(80, 17);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "服务器端口：";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(112, 81);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.ReadOnly = true;
+            this.textBox1.Size = new System.Drawing.Size(234, 24);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.Text = "8001";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(12, 29);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(94, 17);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "服务器IP地址：";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(112, 22);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.ReadOnly = true;
+            this.textBox2.Size = new System.Drawing.Size(234, 24);
+            this.textBox2.TabIndex = 0;
+            this.textBox2.Text = "127.0.0.1";
+            // 
+            // btn_Disconn
+            // 
+            this.btn_Disconn.BackColor = System.Drawing.Color.Red;
+            this.btn_Disconn.Font = new System.Drawing.Font("Arial Black", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Disconn.Location = new System.Drawing.Point(198, 198);
+            this.btn_Disconn.Name = "btn_Disconn";
+            this.btn_Disconn.Size = new System.Drawing.Size(139, 66);
+            this.btn_Disconn.TabIndex = 3;
+            this.btn_Disconn.Text = "断开服务器";
+            this.btn_Disconn.UseVisualStyleBackColor = false;
+            this.btn_Disconn.Click += new System.EventHandler(this.btn_Disconn_Click);
+            // 
             // FrmTCPClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(1067, 650);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.label1);
@@ -290,9 +403,18 @@
         private System.Windows.Forms.ColumnHeader Info;
         private System.Windows.Forms.ImageList imageList;
         private System.Windows.Forms.TextBox text_UserName;
-        private System.Windows.Forms.Button btn_SendFile;
-        private System.Windows.Forms.Button btn_SendMsg;
-        private System.Windows.Forms.Button btn_SendJson;
+        private System.Windows.Forms.Button btn_Send_File;
+        private System.Windows.Forms.Button btn_Send_all;
+        private System.Windows.Forms.Button btn_Send_JSON;
+        private System.Windows.Forms.Button btn_Send_Hex;
+        private System.Windows.Forms.Button btn_Send_UTF8;
+        private System.Windows.Forms.Button btn_Send_ASCII;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button btn_Disconn;
     }
 }
 

@@ -34,6 +34,7 @@ namespace SocketProject
         private Socket socketClient;
 
 
+#region 连接服务器
         private void btn_Connect_Click(object sender, EventArgs e)
         {
             AddLog(0, "与服务器连接中");
@@ -63,7 +64,9 @@ namespace SocketProject
             AddLog(0, "与服务器连接成功");
             this.btn_Connect.Enabled = false;
         }
+#endregion
 
+#region 多线程接收数据
         private void CheckReceiveMsg()
         {
             while (true)
@@ -95,9 +98,9 @@ namespace SocketProject
                 }
             }
         }
+#endregion
 
-
-        #region 接收信息的方法
+#region 接收信息的方法
         /// <summary>
         /// 当前时间属性
         /// </summary>
@@ -123,22 +126,108 @@ namespace SocketProject
                 }));
             }
         }
-        #endregion
+#endregion
 
-        #region 发送消息
-        private void btn_SendMsg_Click(object sender, EventArgs e)
-        {
-            AddLog(0, "发送内容：" + this.text_Sender.Text.Trim());
-            socketClient?.Send(Encoding.Default.GetBytes(this.text_Sender.Text.Trim()));
-
- 
-        }
-        #endregion
-
+#region 窗体关闭
         private void FrmTCPClient_FormClosing(object sender, FormClosingEventArgs e)
         {
             socketClient?.Close();
+        }
+#endregion
+
+
+        private void btn_Send_all_Click(object sender, EventArgs e)
+        {
 
         }
-    }
+
+        private void btn_Send_Message_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Client_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_StartService_Click(object sender, EventArgs e)
+        {
+
+        }
+
+#region 断开服务器
+        private void btn_Disconn_Click(object sender, EventArgs e)
+        {
+            socketClient?.Close();
+            this.btn_Connect.Enabled = true;
+        }
+#endregion
+
+#region 发送ASCII
+        private void btn_Send_ASCII_Click(object sender, EventArgs e)
+        {
+            AddLog(0, "发送内容：" + this.text_Sender.Text.Trim());
+
+            // 编码为ASCII格式
+            byte[] send = Encoding.ASCII.GetBytes(this.text_Sender.Text.Trim());    
+
+            // 创建最终要发送的数组, 比要发送的数据长1个字节，多出来的一个字节用来放编码格式
+            byte[] sendMsg = new byte[send.Length + 1];                         
+
+            // 整体拷贝数组
+            Array.Copy(send, 0, sendMsg, 1, send.Length);
+            
+            // 给首字节赋值
+            sendMsg[0] = (byte)MessageType.ASCII;
+            socketClient?.Send(sendMsg);
+            this.text_Sender.Clear();
+        }
+
+#endregion
+
+#region 发送UTF8
+        private void btn_Send_UTF8_Click(object sender, EventArgs e)
+        {
+            AddLog(0, "发送内容：" + this.text_Sender.Text.Trim());
+
+            // 编码为UTF8格式
+            byte[] send = Encoding.UTF8.GetBytes(this.text_Sender.Text.Trim());    
+
+            // 创建最终要发送的数组, 比要发送的数据长1个字节，多出来的一个字节用来放编码格式
+            byte[] sendMsg = new byte[send.Length + 1];                         
+
+            // 整体拷贝数组
+            Array.Copy(send, 0, sendMsg, 1, send.Length);
+            
+            // 给首字节赋值
+            sendMsg[0] = (byte)MessageType.UTF8;
+            socketClient?.Send(sendMsg);
+            this.text_Sender.Clear();
+ 
+        }
+#endregion
+
+#region 发送Hex
+        private void btn_Send_Hex_Click(object sender, EventArgs e)
+        {
+            AddLog(0, "发送内容：" + this.text_Sender.Text.Trim());
+
+            // 编码为Hex格式
+            byte[] send = Encoding.Default.GetBytes(this.text_Sender.Text.Trim());    
+
+            // 创建最终要发送的数组, 比要发送的数据长1个字节，多出来的一个字节用来放编码格式
+            byte[] sendMsg = new byte[send.Length + 1];                         
+
+            // 整体拷贝数组
+            Array.Copy(send, 0, sendMsg, 1, send.Length);
+            
+            // 给首字节赋值
+            sendMsg[0] = (byte)MessageType.Hex;
+            socketClient?.Send(sendMsg);
+            this.text_Sender.Clear();
+        }
+#endregion
+
+   }
 }
