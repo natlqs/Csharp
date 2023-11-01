@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
+using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -82,7 +84,14 @@ namespace SocketProject
                 }
                 catch (Exception)
                 {
+                    try
+                    {
                     AddLog(2, "服务器断开连接");
+                    }
+                    catch (Exception)
+                    {
+                        break;
+                    }
                     break;
                 }
                 if(length>0)
@@ -227,7 +236,73 @@ namespace SocketProject
             socketClient?.Send(sendMsg);
             this.text_Sender.Clear();
         }
-#endregion
+        #endregion
 
+#region 选择文件
+        private void btn_Select_File_Click(object sender, EventArgs e)
+        {
+
+            OpenFileDialog ofd = new OpenFileDialog();
+            //设置默认的路径
+            ofd.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
+            if(ofd.ShowDialog() == DialogResult.OK)
+            {
+                this.text_File.Text = ofd.FileName;
+                AddLog(0, "选择文件：" + this.text_File.Text);
+            }
+        }
+        #endregion
+
+        #region 发送文件
+        private void btn_Send_File_Click(object sender, EventArgs e)
+        {
+            if(string.IsNullOrEmpty(this.text_File.Text))
+            {
+                MessageBox.Show("请先选择你要发送的文件路径", "发送文件");
+                return;
+            }
+            else
+            {
+                //发送两次
+                using (FileStream fs = new FileStream(this.text_File.Text, FileMode.Open))
+                {
+                    // 第一次发送文件名称
+                    //获取文件名称
+                    string filename = Path.GetFileName(this.text_File.Text);
+                    // 获取后缀名
+                    string fileExtension = Path.GetExtension(this.text_File.Text);
+
+                    string strMsg = "发送文件：" + filename + "." + fileExtension;
+
+                    byte[] send1 = Encoding.UTF8.GetBytes(strMsg);
+
+                    byte[] send1Msg = new byte[send1.Length + 1];
+
+                    Array.Copy(send1, 0, send1Msg, 1, send1.Length);
+
+                    send1Msg[0] = (byte)MessageType.UTF8;
+
+                    socketClient?.Send(send1Msg);
+
+                    // 第二次发送文件内容
+                    byte[] send2 = new byte[1024 * 1024 * 10];
+                    // 有效长度
+                    int length = fs.Read(send2, 0, send2.Length);
+
+                    byte[] send2Msg = new byte[length  + 1];
+
+                    Array.Copy(send2, 0, send2Msg, 1, length);
+
+                    send2Msg[0] = (byte)MessageType.File;
+
+                    socketClient?.Send(send2Msg);
+
+                    this.text_File.Clear();
+                    AddLog(0, strMsg);
+                }
+            }
+        }
+ 
+        #endregion
    }
 }
