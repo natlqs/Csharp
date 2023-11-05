@@ -205,6 +205,7 @@
             this.btn_Send_JSON.TabIndex = 3;
             this.btn_Send_JSON.Text = "发送JSON";
             this.btn_Send_JSON.UseVisualStyleBackColor = false;
+            this.btn_Send_JSON.Click += new System.EventHandler(this.btn_Send_JSON_Click);
             // 
             // btn_Send_Hex
             // 

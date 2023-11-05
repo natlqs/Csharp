@@ -75,7 +75,7 @@ namespace SocketProject
             {
                 //创建一个缓冲区
                 byte[] buffer = new byte[1024 * 1024 * 10];
-                int length = -1;
+                int length; //= -1;
                 // 第四步：调用读写函数发送或者接收数据。
                 try
                 {
@@ -301,6 +301,34 @@ namespace SocketProject
                     AddLog(0, strMsg);
                 }
             }
+        }
+
+        #endregion
+
+#region 发送JSON
+        private void btn_Send_JSON_Click(object sender, EventArgs e)
+        {
+            List<Student> stuList = new List<Student>()
+            {
+                new Student() {StudentID=10001, StudentName = "小明", ClassName = "软件1班" },
+                new Student() {StudentID=10002, StudentName = "小红", ClassName = "软件2班" },
+                new Student() {StudentID=10003, StudentName = "小花", ClassName = "软件3班" },
+            };
+
+            string str = JSONHelper.EntityToJson(stuList);
+
+            byte[] send = Encoding.Default.GetBytes(str);
+
+            byte[] sendMsg = new byte[send.Length + 1];
+
+            Array.Copy(send, 0, sendMsg, 1, send.Length);
+
+            sendMsg[0] = (byte)MessageType.JSON;
+
+            socketClient?.Send(sendMsg);
+
+            AddLog(0, str);
+
         }
  
         #endregion
