@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FW23NRUzAjZz3Bpf7DDKOHxqf1P99GNNyljkLg/syJAkTFXfjncVJpAfJp8XeeAWZT8hjWeoEY3cHstOXNp85g==",
+  "dgSpecHash": "U7nHMAo4lEmCDrAGhp7BH39DutQ4bR4v5nVhZayxJ3/simaw0A8AxxJEDt1IRdPfbx83JQ8i0iFxZUoPIiYTFA==",
   "success": true,
-  "projectFilePath": "D:\\01_Data\\CODE\\csharp\\X_Essential C#\\19_Thread_多线程\\进程单例(同一程序只允许运行一个进程)\\19_5_进程单例(同一程序只允许运行一个进程).csproj",
+  "projectFilePath": "D:\\VMcommunicate\\CODE\\Csharp\\X_Essential C#\\19_Thread_多线程\\进程单例(同一程序只允许运行一个进程)\\19_5_进程单例(同一程序只允许运行一个进程).csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
