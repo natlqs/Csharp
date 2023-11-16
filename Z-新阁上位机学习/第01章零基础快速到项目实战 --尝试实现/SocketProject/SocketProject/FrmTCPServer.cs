@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
@@ -37,7 +38,7 @@ namespace SocketProject
         private Socket socketServer;
 
         //创建字典集合，键是ClientIp, 值是SocketClient
-        private Dictionary<string, Socket> CurrentClientlist= new Dictionary<string, Socket>();
+        private Dictionary<string, Socket> CurrentClientlist = new Dictionary<string, Socket>();
 
         /// <summary>
         /// 启动服务
@@ -89,7 +90,7 @@ namespace SocketProject
 
                 string client = socketClient.RemoteEndPoint.ToString();
                 CurrentClientlist.Add(client, socketClient);
-                AddLog(0, client+"上线了");
+                AddLog(0, client + "上线了");
                 UpdateOnline(client, true);
 
                 Task.Run(new Action(() =>
@@ -120,7 +121,7 @@ namespace SocketProject
                 catch (Exception ex)
                 {
                     UpdateOnline(client, false);
-                    AddLog(0, client + "意外下线了"+ex);
+                    AddLog(2, client + "意外下线了" + ex);
                     CurrentClientlist.Remove(client);
                     break;
                 }
@@ -133,18 +134,33 @@ namespace SocketProject
                     switch (type)
                     {
                         case MessageType.ASCII:
-                            msg = Encoding.ASCII.GetString(buffer, 1, length-1);
+                            msg = Encoding.ASCII.GetString(buffer, 1, length - 1);
                             AddLog(0, client + ": " + msg);
                             break;
                         case MessageType.UTF8:
-                            msg = Encoding.UTF8.GetString(buffer, 1, length-1);
+                            msg = Encoding.UTF8.GetString(buffer, 1, length - 1);
                             AddLog(0, client + ": " + msg);
                             break;
                         case MessageType.Hex:
-                             msg = HexGetString(buffer, 1, length-1);
+                            msg = HexGetString(buffer, 1, length - 1);
                             AddLog(0, client + ": " + msg);
                             break;
                         case MessageType.File:
+                            Invoke(new Action(() =>
+                            {
+                                SaveFileDialog sfd = new SaveFileDialog();
+                                sfd.Filter = "txt files(*.txt)|*.txt|xls files(*.xls)|.xls|xlsx files(*.xlsx)|*.xlsx|All files(*.*)|*.*";
+                                if (sfd.ShowDialog() == DialogResult.OK)
+                                {
+                                    string fileSavePath = sfd.FileName;
+                                    using (FileStream fs = new FileStream(fileSavePath, FileMode.Create))
+                                    {
+                                        fs.Write(buffer, 1, length - 1);
+                                    }
+                                    AddLog(0, "文件成功保存至：" + fileSavePath);
+                                }
+                            }));
+
                             break;
                         case MessageType.JSON:
                             break;
@@ -204,7 +220,7 @@ namespace SocketProject
                 {
                     foreach (var item in this.list_Online.Items)
                     {
-                        if (item.ToString()== client)
+                        if (item.ToString() == client)
                         {
                             this.list_Online.Items.Remove(item);
                             break;
@@ -242,15 +258,15 @@ namespace SocketProject
         #region 发送信息
         private void btn_Send_Message_Click(object sender, EventArgs e)
         {
-            if(this.list_Online.SelectedItems != null)
+            if (this.list_Online.SelectedItems != null)
             {
-                foreach(var item in this.list_Online.SelectedItems)
+                foreach (var item in this.list_Online.SelectedItems)
                 {
                     string client = item.ToString();
                     CurrentClientlist[client].Send(Encoding.Default.GetBytes(this.text_Sender.Text.Trim()));
 
                 }
-                AddLog(0, "发送内容："+this.text_Sender.Text.Trim());
+                AddLog(0, "发送内容：" + this.text_Sender.Text.Trim());
 
             }
             else
@@ -295,7 +311,7 @@ namespace SocketProject
         #region 发送信息给所有客户端
         private void btn_Send_all_Click(object sender, EventArgs e)
         {
-            if(this.list_Online.Items.Count > 0)
+            if (this.list_Online.Items.Count > 0)
             {
                 foreach (string item in this.list_Online.Items)
                 {
@@ -304,7 +320,7 @@ namespace SocketProject
             }
             else
             {
-                MessageBox.Show("当前连接的客户端对象数量为0！","发送消息");
+                MessageBox.Show("当前连接的客户端对象数量为0！", "发送消息");
             }
         }
         #endregion
