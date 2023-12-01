@@ -14,4 +14,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = _19_自制进程管理器
-build_property.ProjectDir = D:\01_Data\CODE\csharp\X_Essential C#\19_Thread_多线程\19_自制进程管理器\
+build_property.ProjectDir = D:\VMcommunicate\CODE\Csharp\X_Essential C#\19_Thread_多线程\19_自制进程管理器\
