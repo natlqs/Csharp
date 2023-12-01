@@ -30,25 +30,23 @@ D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目�
 D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.csproj.CoreCompileInputs.cache
 D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.exe
 D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.pdb
-D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\bin\Debug\SocketProject.exe.config
-D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\bin\Debug\SocketProject.exe
-D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\bin\Debug\SocketProject.pdb
-D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.csproj.AssemblyReference.cache
-D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.FrmTCPServer.resources
-D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.Properties.Resources.resources
-D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.csproj.GenerateResource.cache
-D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.csproj.CoreCompileInputs.cache
-D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.exe
-D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.pdb
 D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.FrmTCPClient.resources
 D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\bin\Debug\Newtonsoft.Json.dll
 D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\bin\Debug\Newtonsoft.Json.xml
 D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.csproj.CopyComplete
-<<<<<<< HEAD
 D:\01_Data\CODE\csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.FrmJSON.resources
-=======
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\bin\Debug\SocketProject.exe.config
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\bin\Debug\SocketProject.exe
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\bin\Debug\SocketProject.pdb
 D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\bin\Debug\Newtonsoft.Json.dll
 D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\bin\Debug\Newtonsoft.Json.xml
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.csproj.AssemblyReference.cache
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.FrmJSON.resources
 D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.FrmTCPClient.resources
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.FrmTCPServer.resources
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.Properties.Resources.resources
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.csproj.GenerateResource.cache
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.csproj.CoreCompileInputs.cache
 D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.csproj.CopyComplete
->>>>>>> 10826c4ef2a48ee5736089fc9b34fc27ccf88256
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.exe
+D:\VMcommunicate\CODE\Csharp\Z-新阁上位机学习\第01章零基础快速到项目实战 --尝试实现\SocketProject\SocketProject\obj\Debug\SocketProject.pdb

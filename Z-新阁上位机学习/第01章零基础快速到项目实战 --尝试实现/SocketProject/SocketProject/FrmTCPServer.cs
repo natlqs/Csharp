@@ -40,6 +40,8 @@ namespace SocketProject
         //创建字典集合，键是ClientIp, 值是SocketClient
         private Dictionary<string, Socket> CurrentClientlist = new Dictionary<string, Socket>();
 
+        #region 开启服务器
+
         /// <summary>
         /// 启动服务
         /// </summary>
@@ -77,7 +79,9 @@ namespace SocketProject
             AddLog(0, "服务器开启成功");
             this.btn_StartService.Enabled = false;
         }
+        #endregion
 
+        #region 监听线程
         /// <summary>
         /// 检查监听的线程方法体
         /// </summary>
@@ -99,6 +103,7 @@ namespace SocketProject
                 }));
             }
         }
+        #endregion
 
         #region 多线程接收数据
         /// <summary>
@@ -317,27 +322,269 @@ namespace SocketProject
         }
         #endregion
 
-        #region 发送信息给所有客户端
-        private void btn_Send_all_Click(object sender, EventArgs e)
-        {
-            if (this.list_Online.Items.Count > 0)
-            {
-                foreach (string item in this.list_Online.Items)
-                {
-                    CurrentClientlist[item].Send(Encoding.Default.GetBytes(this.text_Sender.Text.Trim()));
-                }
-            }
-            else
-            {
-                MessageBox.Show("当前连接的客户端对象数量为0！", "发送消息");
-            }
-        }
-        #endregion
-
         private void btn_Client_Click(object sender, EventArgs e)
         {
             new FrmTCPClient().Show();
 
         }
+
+        #region 发送ASCII
+        private void btn_Send_ASCII_Click(object sender, EventArgs e)
+        {
+            if (this.list_Online.SelectedItems.Count > 0)
+            {
+                // 编码为ASCII格式
+                byte[] send = Encoding.ASCII.GetBytes(this.text_Sender.Text.Trim());
+
+                // 创建最终要发送的数组, 比要发送的数据长1个字节，多出来的一个字节用来放编码格式
+                byte[] sendMsg = new byte[send.Length + 1];
+
+                // 整体拷贝数组
+                Array.Copy(send, 0, sendMsg, 1, send.Length);
+
+                // 给首字节赋值
+                sendMsg[0] = (byte)MessageType.ASCII;
+
+                foreach (var item in this.list_Online.SelectedItems)
+                {
+                    AddLog(0, "发送内容：" + this.text_Sender.Text.Trim());
+
+                    // 获取socket对象
+                    string client = item.ToString();
+
+                    CurrentClientlist[client]?.Send(sendMsg);
+                }
+                this.text_Sender.Clear();
+            }
+            else
+            {
+                MessageBox.Show("请选择你要发送的客户端对象!", "发送消息");
+            }
+        }
+        #endregion
+
+        #region 发送UTF8
+        private void btn_Send_UTF8_Click(object sender, EventArgs e)
+        {
+            if (this.list_Online.SelectedItems.Count > 0)
+            {
+                // 编码为UTF8格式
+                byte[] send = Encoding.UTF8.GetBytes(this.text_Sender.Text.Trim());
+
+                // 创建最终要发送的数组, 比要发送的数据长1个字节，多出来的一个字节用来放编码格式
+                byte[] sendMsg = new byte[send.Length + 1];
+
+                // 整体拷贝数组
+                Array.Copy(send, 0, sendMsg, 1, send.Length);
+
+                // 给首字节赋值
+                sendMsg[0] = (byte)MessageType.UTF8;
+
+                foreach (var item in this.list_Online.SelectedItems)
+                {
+                    AddLog(0, "发送内容：" + this.text_Sender.Text.Trim());
+
+                    // 获取socket对象
+                    string client = item.ToString();
+
+                    CurrentClientlist[client]?.Send(sendMsg);
+                }
+                this.text_Sender.Clear();
+            }
+            else
+            {
+                MessageBox.Show("请选择你要发送的客户端对象!", "发送消息");
+            }
+        }
+        #endregion
+
+        #region 发送HEX
+        private void btn_Send_Hex_Click(object sender, EventArgs e)
+        {
+            if (this.list_Online.SelectedItems.Count > 0)
+            {
+                // 编码为HEX格式
+                byte[] send = Encoding.Default.GetBytes(this.text_Sender.Text.Trim());
+
+                // 创建最终要发送的数组, 比要发送的数据长1个字节，多出来的一个字节用来放编码格式
+                byte[] sendMsg = new byte[send.Length + 1];
+
+                // 整体拷贝数组
+                Array.Copy(send, 0, sendMsg, 1, send.Length);
+
+                // 给首字节赋值
+                sendMsg[0] = (byte)MessageType.Hex;
+
+                foreach (var item in this.list_Online.SelectedItems)
+                {
+                    AddLog(0, "发送内容：" + this.text_Sender.Text.Trim());
+
+                    // 获取socket对象
+                    string client = item.ToString();
+
+                    CurrentClientlist[client]?.Send(sendMsg);
+                }
+                this.text_Sender.Clear();
+            }
+            else
+            {
+                MessageBox.Show("请选择你要发送的客户端对象!", "发送消息");
+            }
+        }
+        #endregion
+
+        #region 选择文件
+        private void btn_Select_File_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            //设置默认的路径
+            ofd.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
+            if (ofd.ShowDialog() == DialogResult.OK)
+            {
+                this.text_File.Text = ofd.FileName;
+                AddLog(0, "选择文件：" + this.text_File.Text);
+            }
+        }
+        #endregion
+
+        #region 发送文件
+        private void btn_Send_File_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(this.text_File.Text))
+            {
+                MessageBox.Show("请先选择你要发送的文件路径", "发送文件");
+                return;
+            }
+            else
+            {
+                if (this.list_Online.SelectedItems.Count > 0)
+                {
+                    //发送两次
+                    using (FileStream fs = new FileStream(this.text_File.Text, FileMode.Open))
+                    {
+                        #region 第一次:  发送文件名称
+                        // 第一次发送文件名称
+                        //获取文件名称
+                        string filename = Path.GetFileName(this.text_File.Text);
+                        // 获取后缀名
+                        string fileExtension = Path.GetExtension(this.text_File.Text);
+
+                        string strMsg = "发送文件：" + filename + "." + fileExtension;
+
+                        byte[] send1 = Encoding.UTF8.GetBytes(strMsg);
+
+                        byte[] send1Msg = new byte[send1.Length + 1];
+
+                        Array.Copy(send1, 0, send1Msg, 1, send1.Length);
+
+                        send1Msg[0] = (byte)MessageType.UTF8;
+
+                        foreach (var item in this.list_Online.SelectedItems)
+                        {
+                            AddLog(0, "发送内容：" + this.text_Sender.Text.Trim());
+
+                            // 获取socket对象
+                            string client = item.ToString();
+
+                            CurrentClientlist[client]?.Send(send1Msg);
+                        }
+                        #endregion
+
+
+                        #region 第二次：  发送文件内容
+
+                        // 第二次发送文件内容
+                        byte[] send2 = new byte[1024 * 1024 * 10];
+                        // 有效长度
+                        int length = fs.Read(send2, 0, send2.Length);
+
+                        byte[] send2Msg = new byte[length + 1];
+
+                        Array.Copy(send2, 0, send2Msg, 1, length);
+
+                        send2Msg[0] = (byte)MessageType.File;
+                        foreach (var item in this.list_Online.SelectedItems)
+                        {
+                            AddLog(0, "发送内容：" + this.text_Sender.Text.Trim());
+
+                            // 获取socket对象
+                            string client = item.ToString();
+
+                            CurrentClientlist[client]?.Send(send2Msg);
+                        }
+                        #endregion
+
+                        this.text_File.Clear();
+                        AddLog(0, strMsg);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("请选择你要发送的客户端对象!", "发送消息");
+                }
+            }
+        }
+        #endregion
+
+        #region 发送JSON
+        private void btn_Send_JSON_Click(object sender, EventArgs e)
+        {
+            if (this.list_Online.SelectedItems.Count > 0)
+            {
+                List<Student> stuList = new List<Student>()
+                {
+                new Student() {StudentID=10001, StudentName = "小明", ClassName = "软件1班" },
+                new Student() {StudentID=10002, StudentName = "小红", ClassName = "软件2班" },
+                new Student() {StudentID=10003, StudentName = "小花", ClassName = "软件3班" },
+                };
+
+                string str = JSONHelper.EntityToJson(stuList);
+
+                byte[] send = Encoding.Default.GetBytes(str);
+
+                byte[] sendMsg = new byte[send.Length + 1];
+
+                Array.Copy(send, 0, sendMsg, 1, send.Length);
+
+                sendMsg[0] = (byte)MessageType.JSON;
+
+                foreach (var item in this.list_Online.SelectedItems)
+                {
+                    AddLog(0, "发送内容：" + this.text_Sender.Text.Trim());
+
+                    // 获取socket对象
+                    string client = item.ToString();
+
+                    CurrentClientlist[client]?.Send(sendMsg);
+                }
+                this.text_Sender.Clear();
+
+                AddLog(0, str);
+            }
+            else
+            {
+                MessageBox.Show("请选择你要发送的客户端对象!", "发送消息");
+            }
+        }
+        #endregion
+
+        #region 全部选择
+        private void btn_Select_all_Click(object sender, EventArgs e)
+        {
+            if (this.list_Online.Items.Count == 0)
+            {
+                MessageBox.Show("当前在线列表为空，无法全选！", "全部选择");
+                return;
+            }
+            else
+            {
+                for (int i = 0; i<this.list_Online.Items.Count; i++)
+                {
+                    this.list_Online.SetSelected(i, true);
+                }
+
+            }
+        }
+        #endregion
     }
 }

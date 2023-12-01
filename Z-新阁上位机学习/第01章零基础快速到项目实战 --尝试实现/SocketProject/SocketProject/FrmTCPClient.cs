@@ -5,6 +5,7 @@ using System.IO;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -66,9 +67,9 @@ namespace SocketProject
             AddLog(0, "与服务器连接成功");
             this.btn_Connect.Enabled = false;
         }
-#endregion
+        #endregion
 
-#region 多线程接收数据
+        #region 多线程接收数据
         private void CheckReceiveMsg()
         {
             while (true)
@@ -86,7 +87,7 @@ namespace SocketProject
                 {
                     try
                     {
-                    AddLog(2, "服务器断开连接");
+                        AddLog(2, "服务器断开连接");
                     }
                     catch (Exception)
                     {
@@ -94,17 +95,61 @@ namespace SocketProject
                     }
                     break;
                 }
-                if(length>0)
+                if (length > 0)
                 {
-                    //处理
-                    string msg = Encoding.Default.GetString(buffer, 0, length);
-                    AddLog(0, "来自服务器：" + msg);
+                    string msg = string.Empty;
+                    MessageType type = (MessageType)buffer[0];
+                    switch (type)
+                    {
+                        case MessageType.ASCII:
+                            msg = Encoding.ASCII.GetString(buffer, 1, length - 1);
+                            AddLog(0, "来自服务器: " + msg);
+                            break;
+                        case MessageType.UTF8:
+                            msg = Encoding.UTF8.GetString(buffer, 1, length - 1);
+                            AddLog(0, "来自服务器: " + msg);
+                            break;
+                        case MessageType.Hex:
+                            msg = HexGetString(buffer, 1, length - 1);
+                            AddLog(0, ": " + msg);
+                            break;
+                        case MessageType.File:
+                            Invoke(new Action(() =>
+                            {
+                                SaveFileDialog sfd = new SaveFileDialog();
+                                sfd.Filter = "txt files(*.txt)|*.txt|xls files(*.xls)|.xls|xlsx files(*.xlsx)|*.xlsx|All files(*.*)|*.*";
+                                if (sfd.ShowDialog() == DialogResult.OK)
+                                {
+                                    string fileSavePath = sfd.FileName;
+                                    using (FileStream fs = new FileStream(fileSavePath, FileMode.Create))
+                                    {
+                                        fs.Write(buffer, 1, length - 1);
+                                    }
+                                    AddLog(0, "文件成功保存至：" + fileSavePath);
+                                }
+                            }));
+
+                            break;
+                        case MessageType.JSON:
+                            Invoke(new Action(() =>
+                            {
+                                string res = Encoding.Default.GetString(buffer, 1, length);
+
+                                List<Student> StuList = JSONHelper.JSONToEntity<List<Student>>(res);
+
+                                new FrmJSON(StuList).Show();
+                                AddLog(0, "接收JSON数据: " + res);
+                            }));
+                            break;
+                        default:
+                            break;
+                    }
                 }
                 else
                 {
                     AddLog(2, "服务器断开连接");
                     break;
-                }
+                }          
             }
         }
 #endregion
@@ -142,8 +187,37 @@ namespace SocketProject
         {
             socketClient?.Close();
         }
-#endregion
-
+        #endregion
+        #region 16进制字符串处理
+        private string HexGetString(byte[] buffer, int start, int length)
+        {
+            string result = string.Empty;
+            if (buffer != null && buffer.Length >= start + length)
+            {
+                // 截取字节数组
+                byte[] res = new byte[length];
+                Array.Copy(buffer, start, res, 0, length);
+                string Hex = Encoding.Default.GetString(res, 0, res.Length);
+                if (Hex.Contains(" "))
+                {
+                    string[] str = Regex.Split(Hex, "\\s+", RegexOptions.IgnoreCase);
+                    foreach (var item in str)
+                    {
+                        result += "0x" + item + " ";
+                    }
+                }
+                else
+                {
+                    result += "0x" + Hex;
+                }
+            }
+            else
+            {
+                result = "Error";
+            }
+            return result;
+        }
+        #endregion
 
         private void btn_Send_all_Click(object sender, EventArgs e)
         {
@@ -189,7 +263,9 @@ namespace SocketProject
             
             // 给首字节赋值
             sendMsg[0] = (byte)MessageType.ASCII;
+
             socketClient?.Send(sendMsg);
+
             this.text_Sender.Clear();
         }
 
