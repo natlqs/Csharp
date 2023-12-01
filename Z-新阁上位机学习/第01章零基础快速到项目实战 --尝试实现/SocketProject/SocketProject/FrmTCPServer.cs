@@ -163,6 +163,15 @@ namespace SocketProject
 
                             break;
                         case MessageType.JSON:
+                            Invoke(new Action(() =>
+                            {
+                                string res = Encoding.Default.GetString(buffer, 1, length);
+
+                                List<Student> StuList = JSONHelper.JSONToEntity<List<Student>>(res);
+
+                                new FrmJSON(StuList).Show();
+                                AddLog(0, "接收JSON数据: " + res);
+                            }));
                             break;
                         default:
                             break;

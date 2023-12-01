@@ -1,0 +1,16 @@
+D:\01_Data\CODE\csharp\X_Essential C#\19_Thread_多线程\19_自制进程管理器\bin\Debug\net6.0-windows\19_4_自制进程管理器.exe
+D:\01_Data\CODE\csharp\X_Essential C#\19_Thread_多线程\19_自制进程管理器\bin\Debug\net6.0-windows\19_4_自制进程管理器.deps.json
+D:\01_Data\CODE\csharp\X_Essential C#\19_Thread_多线程\19_自制进程管理器\bin\Debug\net6.0-windows\19_4_自制进程管理器.runtimeconfig.json
+D:\01_Data\CODE\csharp\X_Essential C#\19_Thread_多线程\19_自制进程管理器\bin\Debug\net6.0-windows\19_4_自制进程管理器.dll
+D:\01_Data\CODE\csharp\X_Essential C#\19_Thread_多线程\19_自制进程管理器\bin\Debug\net6.0-windows\19_4_自制进程管理器.pdb
+D:\01_Data\CODE\csharp\X_Essential C#\19_Thread_多线程\19_自制进程管理器\obj\Debug\net6.0-windows\_19_自制进程管理器.Form1.resources
+D:\01_Data\CODE\csharp\X_Essential C#\19_Thread_多线程\19_自制进程管理器\obj\Debug\net6.0-windows\19_4_自制进程管理器.csproj.GenerateResource.cache
+D:\01_Data\CODE\csharp\X_Essential C#\19_Thread_多线程\19_自制进程管理器\obj\Debug\net6.0-windows\19_4_自制进程管理器.GeneratedMSBuildEditorConfig.editorconfig
+D:\01_Data\CODE\csharp\X_Essential C#\19_Thread_多线程\19_自制进程管理器\obj\Debug\net6.0-windows\19_4_自制进程管理器.AssemblyInfoInputs.cache
+D:\01_Data\CODE\csharp\X_Essential C#\19_Thread_多线程\19_自制进程管理器\obj\Debug\net6.0-windows\19_4_自制进程管理器.AssemblyInfo.cs
+D:\01_Data\CODE\csharp\X_Essential C#\19_Thread_多线程\19_自制进程管理器\obj\Debug\net6.0-windows\19_4_自制进程管理器.csproj.CoreCompileInputs.cache
+D:\01_Data\CODE\csharp\X_Essential C#\19_Thread_多线程\19_自制进程管理器\obj\Debug\net6.0-windows\19_4_自制进程管理器.dll
+D:\01_Data\CODE\csharp\X_Essential C#\19_Thread_多线程\19_自制进程管理器\obj\Debug\net6.0-windows\refint\19_4_自制进程管理器.dll
+D:\01_Data\CODE\csharp\X_Essential C#\19_Thread_多线程\19_自制进程管理器\obj\Debug\net6.0-windows\19_4_自制进程管理器.pdb
+D:\01_Data\CODE\csharp\X_Essential C#\19_Thread_多线程\19_自制进程管理器\obj\Debug\net6.0-windows\19_4_自制进程管理器.genruntimeconfig.cache
+D:\01_Data\CODE\csharp\X_Essential C#\19_Thread_多线程\19_自制进程管理器\obj\Debug\net6.0-windows\ref\19_4_自制进程管理器.dll
