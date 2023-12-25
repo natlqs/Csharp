@@ -1,0 +1,13 @@
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.exe.config
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.exe
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdaterTest\bin\Debug\AutoUpdaterTest.pdb
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdaterTest\bin\Debug\LinkTo.Toolkit.exe
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdaterTest\bin\Debug\LinkTo.Toolkit.pdb
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdaterTest\bin\Debug\LinkTo.Toolkit.exe.config
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.AssemblyReference.cache
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.Properties.Resources.resources
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.GenerateResource.cache
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.CoreCompileInputs.cache
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.csproj.CopyComplete
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.exe
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdaterTest\obj\Debug\AutoUpdaterTest.pdb

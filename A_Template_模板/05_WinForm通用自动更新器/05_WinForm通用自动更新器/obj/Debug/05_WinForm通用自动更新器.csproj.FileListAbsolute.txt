@@ -1,0 +1,9 @@
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\05_WinForm通用自动更新器\bin\Debug\05_WinForm通用自动更新器.exe.config
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\05_WinForm通用自动更新器\bin\Debug\05_WinForm通用自动更新器.exe
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\05_WinForm通用自动更新器\bin\Debug\05_WinForm通用自动更新器.pdb
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\05_WinForm通用自动更新器\obj\Debug\05_WinForm通用自动更新器.csproj.AssemblyReference.cache
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\05_WinForm通用自动更新器\obj\Debug\_05_WinForm通用自动更新器.Properties.Resources.resources
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\05_WinForm通用自动更新器\obj\Debug\05_WinForm通用自动更新器.csproj.GenerateResource.cache
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\05_WinForm通用自动更新器\obj\Debug\05_WinForm通用自动更新器.csproj.CoreCompileInputs.cache
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\05_WinForm通用自动更新器\obj\Debug\05_WinForm通用自动更新器.exe
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\05_WinForm通用自动更新器\obj\Debug\05_WinForm通用自动更新器.pdb

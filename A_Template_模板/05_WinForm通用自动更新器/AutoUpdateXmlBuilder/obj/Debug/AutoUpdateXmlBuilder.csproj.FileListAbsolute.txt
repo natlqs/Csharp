@@ -1,0 +1,14 @@
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdateXmlBuilder\bin\Debug\AutoUpdateXmlBuilder.exe.config
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdateXmlBuilder\bin\Debug\AutoUpdateXmlBuilder.exe
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdateXmlBuilder\bin\Debug\AutoUpdateXmlBuilder.pdb
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdateXmlBuilder\bin\Debug\LinkTo.Toolkit.exe
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdateXmlBuilder\bin\Debug\LinkTo.Toolkit.pdb
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdateXmlBuilder\bin\Debug\LinkTo.Toolkit.exe.config
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdateXmlBuilder\obj\Debug\AutoUpdateXmlBuilder.csproj.AssemblyReference.cache
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdateXmlBuilder\obj\Debug\AutoUpdateXmlBuilder.Properties.Resources.resources
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdateXmlBuilder\obj\Debug\AutoUpdateXmlBuilder.csproj.GenerateResource.cache
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdateXmlBuilder\obj\Debug\AutoUpdateXmlBuilder.csproj.CoreCompileInputs.cache
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdateXmlBuilder\obj\Debug\AutoUpdateXmlBuilder.csproj.CopyComplete
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdateXmlBuilder\obj\Debug\AutoUpdateXmlBuilder.exe
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdateXmlBuilder\obj\Debug\AutoUpdateXmlBuilder.pdb
+D:\VMcommunicate\CODE\Csharp\A_Template_模板\05_WinForm通用自动更新器\AutoUpdateXmlBuilder\obj\Debug\AutoUpdateXmlBuilder.MainForm.resources
