@@ -78,10 +78,6 @@ namespace _01_图表通用
             //[4] 设置图表绘图区域X与Y坐标值（Y:表示具体要显示的数值之间的间隔）
             this.chart.ChartAreas[0].AxisY.Interval = 10;       //也可以设置成20
             this.chart.ChartAreas[0].AxisX.Interval = 1;        //一般设置为1
-
         }
-
-
-
     }
 }
