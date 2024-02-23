@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter8.2.1 字符串的加密与解密", "Chapter8.2.1 字符串的加密与解密\Chapter8.2.1 字符串的加密与解密.csproj", "{FC27E17C-B21E-47FC-9F19-B6C93F224A5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC27E17C-B21E-47FC-9F19-B6C93F224A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC27E17C-B21E-47FC-9F19-B6C93F224A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC27E17C-B21E-47FC-9F19-B6C93F224A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC27E17C-B21E-47FC-9F19-B6C93F224A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E204519E-CBC2-4A4D-941C-C0F7885DCADB}
+	EndGlobalSection
+EndGlobal

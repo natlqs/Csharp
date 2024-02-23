@@ -1,0 +1,12 @@
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4.4.2 基于多文档的窗体设计(MDI)\Chapter4.4.2 基于多文档的窗体设计(MDI)\bin\Debug\Chapter4.4.2 基于多文档的窗体设计(MDI).exe.config
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4.4.2 基于多文档的窗体设计(MDI)\Chapter4.4.2 基于多文档的窗体设计(MDI)\bin\Debug\Chapter4.4.2 基于多文档的窗体设计(MDI).exe
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4.4.2 基于多文档的窗体设计(MDI)\Chapter4.4.2 基于多文档的窗体设计(MDI)\bin\Debug\Chapter4.4.2 基于多文档的窗体设计(MDI).pdb
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4.4.2 基于多文档的窗体设计(MDI)\Chapter4.4.2 基于多文档的窗体设计(MDI)\obj\Debug\Chapter4.4.2 基于多文档的窗体设计(MDI).csproj.AssemblyReference.cache
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4.4.2 基于多文档的窗体设计(MDI)\Chapter4.4.2 基于多文档的窗体设计(MDI)\obj\Debug\Chapter4._4._2_基于多文档的窗体设计_MDI_.Form11.resources
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4.4.2 基于多文档的窗体设计(MDI)\Chapter4.4.2 基于多文档的窗体设计(MDI)\obj\Debug\Chapter4._4._2_基于多文档的窗体设计_MDI_.Form12.resources
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4.4.2 基于多文档的窗体设计(MDI)\Chapter4.4.2 基于多文档的窗体设计(MDI)\obj\Debug\Chapter4._4._2_基于多文档的窗体设计_MDI_.Form13.resources
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4.4.2 基于多文档的窗体设计(MDI)\Chapter4.4.2 基于多文档的窗体设计(MDI)\obj\Debug\Chapter4._4._2_基于多文档的窗体设计_MDI_.Properties.Resources.resources
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4.4.2 基于多文档的窗体设计(MDI)\Chapter4.4.2 基于多文档的窗体设计(MDI)\obj\Debug\Chapter4.4.2 基于多文档的窗体设计(MDI).csproj.GenerateResource.cache
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4.4.2 基于多文档的窗体设计(MDI)\Chapter4.4.2 基于多文档的窗体设计(MDI)\obj\Debug\Chapter4.4.2 基于多文档的窗体设计(MDI).csproj.CoreCompileInputs.cache
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4.4.2 基于多文档的窗体设计(MDI)\Chapter4.4.2 基于多文档的窗体设计(MDI)\obj\Debug\Chapter4.4.2 基于多文档的窗体设计(MDI).exe
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4.4.2 基于多文档的窗体设计(MDI)\Chapter4.4.2 基于多文档的窗体设计(MDI)\obj\Debug\Chapter4.4.2 基于多文档的窗体设计(MDI).pdb

@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Fonts\digital_display.ttf" />
+    <None Remove="Resources\Fonts\iconfont.ttf" />
+    <None Remove="Resources\Images\device.png" />
+    <None Remove="Resources\Images\Logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
+    <Folder Include="Models\" />
+    <Folder Include="Dictionary\" />
+    <Folder Include="UserControl\" />
+    <Folder Include="Views\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Fonts\digital_display.ttf" />
+    <Resource Include="Resources\Fonts\iconfont.ttf" />
+    <Resource Include="Resources\Images\device.png" />
+    <Resource Include="Resources\Images\Logo.png" />
+  </ItemGroup>
+
+</Project>

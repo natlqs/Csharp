@@ -1,0 +1,13 @@
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4-Winform基础\Chapter4-Winform基础\bin\Debug\Chapter4-Winform基础.exe.config
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4-Winform基础\Chapter4-Winform基础\bin\Debug\Chapter4-Winform基础.exe
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4-Winform基础\Chapter4-Winform基础\bin\Debug\Chapter4-Winform基础.pdb
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4-Winform基础\Chapter4-Winform基础\obj\Debug\Chapter4-Winform基础.csproj.AssemblyReference.cache
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4-Winform基础\Chapter4-Winform基础\obj\Debug\Chapter4_Winform基础.Form1.resources
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4-Winform基础\Chapter4-Winform基础\obj\Debug\Chapter4_Winform基础.Properties.Resources.resources
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4-Winform基础\Chapter4-Winform基础\obj\Debug\Chapter4-Winform基础.csproj.GenerateResource.cache
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4-Winform基础\Chapter4-Winform基础\obj\Debug\Chapter4-Winform基础.csproj.CoreCompileInputs.cache
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4-Winform基础\Chapter4-Winform基础\obj\Debug\Chapter4-Winform基础.exe
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4-Winform基础\Chapter4-Winform基础\obj\Debug\Chapter4-Winform基础.pdb
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4-Winform基础\Chapter4-Winform基础\obj\Debug\Chapter4_Winform基础.Form2.resources
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4-Winform基础\Chapter4-Winform基础\obj\Debug\Chapter4_Winform基础.Form3.resources
+D:\VMcommunicate\CODE\Csharp\C_Winform\WinForm程序设计与实践（廉玉颗）\Chapter4-Winform基础\Chapter4-Winform基础\obj\Debug\Chapter4_Winform基础.Form4.resources
