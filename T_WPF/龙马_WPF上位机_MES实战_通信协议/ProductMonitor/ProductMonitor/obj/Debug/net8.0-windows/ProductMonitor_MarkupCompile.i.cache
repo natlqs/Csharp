@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\
+D:\01_Data\CODE\csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\
 ProductMonitor
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\App.xaml
-11407045341
+D:\01_Data\CODE\csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\App.xaml
+21950693003
 
 6-92999857
 198-688555687
-MainWindow.xaml;
+Dictionary\OperateBtnStyleDic.xaml;MainWindow.xaml;
 
-False
+True
 

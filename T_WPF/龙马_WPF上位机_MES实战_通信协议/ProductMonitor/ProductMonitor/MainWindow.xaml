@@ -42,6 +42,18 @@
                     <TextBlock Text="生产监控平台" Foreground="White" FontSize="16"></TextBlock>
                     <TextBlock Text="zzzzzzzzzzzzzzz" Foreground="White" FontSize="12" Margin="0, 4, 0, 0"></TextBlock>
                 </StackPanel>
+                <!--第三列-->
+                <Grid Grid.Column="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Background="Transparent">
+                        <Button Content="&#xe624;" Style="{StaticResource OperateBtnStyle}"></Button>
+                        <Button Content="&#xe600;" Style="{StaticResource OperateBtnStyle}"></Button>
+                        <Button Content="&#xe609;" Style="{StaticResource OperateBtnStyle}" Background="DarkRed"></Button>
+                    </StackPanel>
+                </Grid>
             </Grid>
         </Border>
 
