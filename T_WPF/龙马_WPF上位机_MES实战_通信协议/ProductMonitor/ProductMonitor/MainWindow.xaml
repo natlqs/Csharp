@@ -24,7 +24,7 @@
         </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"></RowDefinition>
-            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="675"></RowDefinition>
             <RowDefinition Height="25"></RowDefinition>
         </Grid.RowDefinitions>
         <!--第一行 头部-->
@@ -46,20 +46,49 @@
                 <Grid Grid.Column="2">
                     <Grid.RowDefinitions>
                         <RowDefinition></RowDefinition>
-                        <RowDefinition></RowDefinition>
+                        <RowDefinition Height="8"></RowDefinition>
                     </Grid.RowDefinitions>
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Background="Transparent">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Background="Transparent" WindowChrome.IsHitTestVisibleInChrome="True">
                         <Button Content="&#xe624;" Style="{StaticResource OperateBtnStyle}"></Button>
                         <Button Content="&#xe600;" Style="{StaticResource OperateBtnStyle}"></Button>
                         <Button Content="&#xe609;" Style="{StaticResource OperateBtnStyle}" Background="DarkRed"></Button>
                     </StackPanel>
+                    <Border Grid.Row="1" BorderThickness="0, 1, 0, 0" BorderBrush="GreenYellow">
+                        <Border.Background>
+                            <VisualBrush TileMode="FlipXY" Viewport =" 0, 0, 7, 7" ViewportUnits="Absolute">
+                                <VisualBrush.Visual>
+                                    <Line X1="0" Y1="10" X2="10" Y2="0" Stroke="Gold" StrokeThickness="1"></Line>
+                                </VisualBrush.Visual>
+                            </VisualBrush>
+                        </Border.Background>
+
+                    </Border>
                 </Grid>
             </Grid>
         </Border>
 
         <!--第二行 内容-->
+        <ContentControl Grid.Row="1" Content="{Binding MonitorUC}"></ContentControl>
+
 
         <!--第三行 底部-->
-
+        <Border Grid.Row="2" BorderThickness="0, 1, 0, 0" BorderBrush="Yellow">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="auto"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Border BorderThickness="0, 0, 0, 1" BorderBrush="Yellow">
+                    <Border.Background>
+                        <VisualBrush TileMode="FlipX" Viewport="0, 0, 7, 7" ViewportUnits="Absolute">
+                            <VisualBrush.Visual>
+                                <Line X1="0" Y1="10" X2="10" Y2="0" Stroke="Gray" StrokeThickness="1"></Line>
+                            </VisualBrush.Visual>
+                        </VisualBrush>
+                    </Border.Background>
+                </Border>
+                <TextBlock Grid.Column="1" Text="博格华纳汽车零部件（江苏）有限公司" Foreground="White" FontSize="18" FontWeight="Bold"></TextBlock>
+            </Grid> 
+        </Border>
     </Grid>
 </Window>
