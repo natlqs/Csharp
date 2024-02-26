@@ -6,6 +6,48 @@
              xmlns:local="clr-namespace:ProductMonitor.UserControls"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800" Height="675" Width="1200">
+    <UserControl.Resources>
+        <Style TargetType="GroupBox">
+            <Setter Property="Margin" Value="10, 3"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="GroupBox" x:Name="groupbox">
+                        <Grid>
+                        <!--左上角线条-->
+                            <Polyline Points="0, 30, 0, 10, 10, 0,  30, 0" Stroke="Yellow" VerticalAlignment="Top" HorizontalAlignment="Left"></Polyline>
+                            <!--左上横的点 画一个小圆，填充颜色-->
+                            <Ellipse Width="4" Height="4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="26, -2, 0, 0" Fill="Yellow"></Ellipse>
+                            <!--左侧横着的点-->
+                            <Ellipse Width="4" Height="4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-2, 26, 0, 0" Fill="Yellow"></Ellipse>
+                            <!--M 表示Moveto-->
+                            <Path Data="M0 0, 3 3, 30 3 , 33 0, 68 0, 73 7,78 7, 78 10 M8 0, 25 0" HorizontalAlignment="Right" VerticalAlignment="Top" Stroke="Yellow"></Path>
+                        <!--左下角线条-->
+                            <Polyline Points="0, 0, 0, 30, 10, 30" Stroke="Yellow" VerticalAlignment="Bottom" HorizontalAlignment="Left"></Polyline>
+                            <!--右下角线-->
+                            <Polyline Points="10, 0, 0, 10" Stroke="Yellow" HorizontalAlignment="Right" VerticalAlignment="Bottom"></Polyline>
+                            <!--右下角三角形-->
+                            <Polygon Points="0 7, 7 7, 7 0" VerticalAlignment="Bottom" HorizontalAlignment="Right" Fill="Yellow"></Polygon>
+
+                            <!--左面的线-->
+                            <Border BorderThickness="1, 0, 0, 0" BorderBrush="Yellow" HorizontalAlignment="Left" Margin="-0.5, 30, 0, 30"></Border>
+                            <!--上面的线-->
+                            <Border BorderThickness="0, 1, 0, 0" BorderBrush="Yellow" VerticalAlignment="Top" Margin="30, -0.5, 78, 0"></Border>
+                            <!--右面的线-->
+                            <Border BorderThickness="0, 0, 1, 0" BorderBrush="Yellow" HorizontalAlignment="Right" Margin="0, 10,  0.2, 10"></Border>
+                            <!--下面的线-->
+                            <Border BorderThickness="0, 0, 0, 1" BorderBrush="Yellow" VerticalAlignment="Bottom" Margin="10, 0, 10, 0"></Border>
+
+                            <!--文件前的装饰-->
+                            <Path Data="M0 0, 3 0 ,5 4 ,3 8, 0 8, 3 4" Fill="Yellow" Stroke="Yellow" Margin="10, 13"></Path>
+                            <Path Data="M0 0, 3 0 ,5 4 ,3 8, 0 8, 3 4" Fill="GreenYellow" Stroke="GreenYellow" Margin="16, 13"></Path>
+                            <TextBlock Text="{TemplateBinding Header}" Foreground="Yellow" Margin="25, 8"></TextBlock>
+                            <ContentPresenter></ContentPresenter>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
     <Grid >
         <!--定义三行-->
         <Grid.RowDefinitions>
@@ -15,7 +57,7 @@
         </Grid.RowDefinitions>
         <!--第一行-->
         <Grid Grid.Row="0">
-            <!--定义三列-->
+            <!--定义二列-->
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="220"></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
@@ -29,7 +71,7 @@
                 </StackPanel>
             </StackPanel>
             <!--第二列-->
-            <StackPanel Grid.Column ="2" Orientation="Horizontal" Margin="20, 0" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <StackPanel Grid.Column ="1" Orientation="Horizontal" Margin="20, 0" HorizontalAlignment="Left" VerticalAlignment="Center">
                 <StackPanel.Resources>
                     <DataTemplate x:Key="machineCount">
                         <Border Width="15" Background="Red" Margin="1, 0">
@@ -63,7 +105,7 @@
                         </ItemsPanelTemplate>
                     </ItemsControl.ItemsPanel>
                 </ItemsControl>
-                <TextBlock Text="产品 ·&#13;总数 ·" Foreground="Wheat" FontSize="14" Margin="16, 0" FontWeight="Bold" VerticalAlignment="Top" ></TextBlock>
+                <TextBlock Text="不良 ·&#13;总数 ·" Foreground="Wheat" FontSize="14" Margin="16, 0" FontWeight="Bold" VerticalAlignment="Top" ></TextBlock>
                 <ItemsControl ItemsSource="{Binding FailureCount}" ItemTemplate="{StaticResource failureCount}">
                     <ItemsControl.ItemsPanel>
                         <ItemsPanelTemplate>
@@ -72,6 +114,22 @@
                     </ItemsControl.ItemsPanel>
                 </ItemsControl>
             </StackPanel>
+            <Button Style="{StaticResource BtnStyle}" HorizontalAlignment="Right" Grid.Column="1" Height="30" VerticalAlignment="Center" Margin="20, 0" Content="配置" Tag="&#xe625;">
+            </Button>
+        </Grid>
+        <!--第二行-->
+        <Grid Grid.Row="1">
+            <!--第二行里有三列，定义三列-->
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <UniformGrid Grid.Column="0" Columns="1">
+                <GroupBox Header="环境" Foreground="Yellow" FontSize="15" FontWeight="Bold"></GroupBox>
+                <GroupBox Header="产能" Foreground="Yellow" FontSize="15" FontWeight="Bold"></GroupBox>
+                <GroupBox Header="环境" Foreground="Yellow" FontSize="15" FontWeight="Bold"></GroupBox>
+            </UniformGrid>
         </Grid>
     </Grid>
 </UserControl>

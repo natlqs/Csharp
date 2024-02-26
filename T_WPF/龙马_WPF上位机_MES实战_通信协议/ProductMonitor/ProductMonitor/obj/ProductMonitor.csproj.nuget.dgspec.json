@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\01_Data\\CODE\\csharp\\T_WPF\\龙马_WPF上位机_MES实战_通信协议\\ProductMonitor\\ProductMonitor\\ProductMonitor.csproj": {}
+    "D:\\VMcommunicate\\CODE\\Csharp\\T_WPF\\龙马_WPF上位机_MES实战_通信协议\\ProductMonitor\\ProductMonitor\\ProductMonitor.csproj": {}
   },
   "projects": {
-    "D:\\01_Data\\CODE\\csharp\\T_WPF\\龙马_WPF上位机_MES实战_通信协议\\ProductMonitor\\ProductMonitor\\ProductMonitor.csproj": {
+    "D:\\VMcommunicate\\CODE\\Csharp\\T_WPF\\龙马_WPF上位机_MES实战_通信协议\\ProductMonitor\\ProductMonitor\\ProductMonitor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\01_Data\\CODE\\csharp\\T_WPF\\龙马_WPF上位机_MES实战_通信协议\\ProductMonitor\\ProductMonitor\\ProductMonitor.csproj",
+        "projectUniqueName": "D:\\VMcommunicate\\CODE\\Csharp\\T_WPF\\龙马_WPF上位机_MES实战_通信协议\\ProductMonitor\\ProductMonitor\\ProductMonitor.csproj",
         "projectName": "ProductMonitor",
-        "projectPath": "D:\\01_Data\\CODE\\csharp\\T_WPF\\龙马_WPF上位机_MES实战_通信协议\\ProductMonitor\\ProductMonitor\\ProductMonitor.csproj",
+        "projectPath": "D:\\VMcommunicate\\CODE\\Csharp\\T_WPF\\龙马_WPF上位机_MES实战_通信协议\\ProductMonitor\\ProductMonitor\\ProductMonitor.csproj",
         "packagesPath": "C:\\Users\\natlq\\.nuget\\packages\\",
-        "outputPath": "D:\\01_Data\\CODE\\csharp\\T_WPF\\龙马_WPF上位机_MES实战_通信协议\\ProductMonitor\\ProductMonitor\\obj\\",
+        "outputPath": "D:\\VMcommunicate\\CODE\\Csharp\\T_WPF\\龙马_WPF上位机_MES实战_通信协议\\ProductMonitor\\ProductMonitor\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\natlq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

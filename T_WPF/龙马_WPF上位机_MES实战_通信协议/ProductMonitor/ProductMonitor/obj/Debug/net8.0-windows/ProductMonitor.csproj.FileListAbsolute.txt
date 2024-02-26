@@ -42,3 +42,8 @@ D:\01_Data\CODE\csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductM
 D:\01_Data\CODE\csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\App.baml
 D:\01_Data\CODE\csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\UserControls\MonitorUC.g.cs
 D:\01_Data\CODE\csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\UserControls\MonitorUC.baml
+D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\Dictionary\OperateBtnStyleDic.baml
+D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\UserControls\MonitorUC.g.cs
+D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\App.baml
+D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\UserControls\MonitorUC.baml
+D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\Dictionary\BtnStyleDic.baml
