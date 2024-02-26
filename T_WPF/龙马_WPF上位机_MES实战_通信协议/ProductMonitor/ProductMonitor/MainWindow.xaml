@@ -20,11 +20,12 @@
                 <GradientStop Color="#ff285173" Offset="0"></GradientStop>
                 <GradientStop Color="#ff244967" Offset="0.5"></GradientStop>
                 <GradientStop Color="#ff14273a" Offset="1"></GradientStop>
+                <!--<GradientStop Color="Yellow" Offset="1"></GradientStop>-->
             </RadialGradientBrush>
         </Grid.Background>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"></RowDefinition>
-            <RowDefinition Height="675"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
             <RowDefinition Height="25"></RowDefinition>
         </Grid.RowDefinitions>
         <!--第一行 头部-->
@@ -67,9 +68,8 @@
             </Grid>
         </Border>
 
-        <!--第二行 内容-->
+        <!--第二行 内容 用户空间并嵌入到主界面-->
         <ContentControl Grid.Row="1" Content="{Binding MonitorUC}"></ContentControl>
-
 
         <!--第三行 底部-->
         <Border Grid.Row="2" BorderThickness="0, 1, 0, 0" BorderBrush="Yellow">
@@ -88,7 +88,7 @@
                     </Border.Background>
                 </Border>
                 <TextBlock Grid.Column="1" Text="博格华纳汽车零部件（江苏）有限公司" Foreground="White" FontSize="18" FontWeight="Bold"></TextBlock>
-            </Grid> 
+            </Grid>
         </Border>
     </Grid>
 </Window>
