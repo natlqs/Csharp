@@ -47,3 +47,12 @@ D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\Pr
 D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\App.baml
 D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\UserControls\MonitorUC.baml
 D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\Dictionary\BtnStyleDic.baml
+D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\bin\Debug\net8.0-windows\LiveCharts.dll
+D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\ProductMonitor.csproj.AssemblyReference.cache
+D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\ProductMonitor.csproj.CopyComplete
+D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\UserControls\RadarUC.g.cs
+D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\UserControls\RadarUC.baml
+D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\UserControls\WorkShopDetailUC.g.cs
+D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\obj\Debug\net8.0-windows\UserControls\WorkShopDetailUC.baml

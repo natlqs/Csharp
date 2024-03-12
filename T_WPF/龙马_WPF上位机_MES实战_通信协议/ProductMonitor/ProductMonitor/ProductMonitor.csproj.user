@@ -10,6 +10,12 @@
     <Compile Update="UserControls\MonitorUC.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="UserControls\RadarUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\WorkShopDetailUC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Dictionary\BtnStyleDic.xaml">
@@ -22,6 +28,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="UserControls\MonitorUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\RadarUC.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\WorkShopDetailUC.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
