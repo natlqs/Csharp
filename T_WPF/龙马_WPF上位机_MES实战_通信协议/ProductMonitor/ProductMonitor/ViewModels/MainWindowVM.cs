@@ -82,6 +82,23 @@ namespace ProductMonitor.ViewModels
 
             #endregion
 
+            #region 初始化机台列表
+            MachineList = new List<MachineModel>();
+            Random random = new Random();
+            for (int i = 0; i < 20; i++)
+            {
+                int plan = random.Next(100, 1000);      // 计划数量
+                int finish = random.Next(0, plan);    //已完成
+                MachineList.Add(new MachineModel
+                {
+                    MachineName = "焊接机-" + (i + 1),
+                    FinishedCount = finish,
+                    PlanCount = plan,
+                    Status = "作业中",
+                    OrderNo = "H202403181234",
+                });
+            }
+            #endregion
         }
 
 
@@ -373,5 +390,30 @@ namespace ProductMonitor.ViewModels
 
         #endregion
 
+        #region 机台集合属性
+        /// <summary>
+        /// 机台集合属性
+        /// </summary>
+        private List<MachineModel> _MachineList;
+
+        /// <summary>
+        /// 机台集合属性
+        /// </summary>
+        public List<MachineModel> MachineList
+        {
+            get { return _MachineList; }
+            set
+            {
+                _MachineList = value;
+
+                if (PropertyChanged != null)
+                {
+                    PropertyChanged(this, new PropertyChangedEventArgs("MachineList"));
+                }
+
+            }
+        }
+
+        #endregion
     }
 }

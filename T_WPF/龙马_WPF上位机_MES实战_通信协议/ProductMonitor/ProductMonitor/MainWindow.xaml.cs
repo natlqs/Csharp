@@ -66,6 +66,15 @@ namespace ProductMonitor
         }
 
         /// <summary>
+        /// 返回到主界面
+        /// </summary>
+        private void GoBackMonitor()
+        {
+            MonitorUC monitorUC = new MonitorUC();
+            mainWindowVM.MonitorUC = monitorUC;
+        }
+
+        /// <summary>
         /// 展示详情命令
         /// </summary>
         /// <returns></returns>
@@ -74,6 +83,17 @@ namespace ProductMonitor
             get
             {
                 return new Command(ShowWorkShopDetailUC);
+            }
+        }
+
+        /// <summary>
+        /// 返回监控界面命令
+        /// </summary>
+        public Command GoBackMonitorCmd
+        {
+            get
+            {
+                return new Command(GoBackMonitor);
             }
         }
     }
