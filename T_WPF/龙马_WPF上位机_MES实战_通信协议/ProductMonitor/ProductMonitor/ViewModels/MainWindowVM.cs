@@ -75,8 +75,8 @@ namespace ProductMonitor.ViewModels
 
             #region 初始化车间列表 
             WorkShopList = new List<WorkShopModel>();
-            WorkShopList.Add(new WorkShopModel { WorkShopName = "贴片车间", WorkingCount = 32, WaitCount = 8, WrongCount = 4, StopCount = 0 });
-            WorkShopList.Add(new WorkShopModel { WorkShopName = "封装车间", WorkingCount = 20, WaitCount = 8, WrongCount = 4, StopCount = 0 });
+            WorkShopList.Add(new WorkShopModel { WorkShopName = "贴片车间", WorkingCount = 42, WaitCount = 8, WrongCount = 4, StopCount = 0 });
+            WorkShopList.Add(new WorkShopModel { WorkShopName = "封装车间", WorkingCount = 30, WaitCount = 8, WrongCount = 4, StopCount = 0 });
             WorkShopList.Add(new WorkShopModel { WorkShopName = "焊接车间", WorkingCount = 68, WaitCount = 8, WrongCount = 4, StopCount = 0 });
             WorkShopList.Add(new WorkShopModel { WorkShopName = "贴片车间", WorkingCount = 68, WaitCount = 8, WrongCount = 4, StopCount = 0 });
 
@@ -132,6 +132,7 @@ namespace ProductMonitor.ViewModels
             }
         }
         #endregion
+
 
         #region 时间 日期
 
@@ -385,7 +386,14 @@ namespace ProductMonitor.ViewModels
         public List<WorkShopModel> WorkShopList
         {
             get { return _WorkShopList; }
-            set { _WorkShopList = value; }
+            set
+            {
+                _WorkShopList = value;
+                if (PropertyChanged != null)
+                {
+                    PropertyChanged(this, new PropertyChangedEventArgs("WorkShopList"));
+                }
+            }
         }
 
         #endregion

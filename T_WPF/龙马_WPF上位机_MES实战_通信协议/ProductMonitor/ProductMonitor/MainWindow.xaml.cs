@@ -96,5 +96,50 @@ namespace ProductMonitor
                 return new Command(GoBackMonitor);
             }
         }
+
+        /// <summary>
+        /// 最小化按钮
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Btn_Min_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+
+
+        /// <summary>
+        /// 记录窗口是否最大化状态
+        /// </summary>
+        private bool window_normal = true;
+        /// <summary>
+        /// 最大化按钮
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Btn_Max_Click(object sender, RoutedEventArgs e)
+        {
+            if (window_normal)
+            {
+                this.WindowState = WindowState.Maximized;
+                window_normal = false;
+            }
+            else
+            {
+                this.WindowState = WindowState.Normal;
+                window_normal = true;
+            }
+        }
+
+        /// <summary>
+        /// 关闭
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Btn_Close_Click(object sender, RoutedEventArgs e)
+        {
+            //this.Close();   // 关闭窗口
+            Environment.Exit(0);    // 强制退出整个应用
+        }
     }
 }
