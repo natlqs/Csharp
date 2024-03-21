@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\VMcommunicate\CODE\Csharp\T_WPF\龙马_WPF上位机_MES实战_通信协议\ProductMonitor\ProductMonitor\App.xaml
-772878546
+9-470266303
 
-19-443620791
+211544622367
 200-1623787254
-Dictionary\BtnStyleDic.xaml;Dictionary\OperateBtnStyleDic.xaml;MainWindow.xaml;UserControls\MonitorUC.xaml;UserControls\RadarUC.xaml;UserControls\RingUC.xaml;UserControls\WorkShopDetailUC.xaml;
+Dictionary\BtnStyleDic.xaml;Dictionary\OperateBtnStyleDic.xaml;MainWindow.xaml;UserControls\MonitorUC.xaml;UserControls\RadarUC.xaml;UserControls\RingUC.xaml;UserControls\WorkShopDetailUC.xaml;Views\SettingsPage.xaml;Views\SettingsWin.xaml;
 
 True
 

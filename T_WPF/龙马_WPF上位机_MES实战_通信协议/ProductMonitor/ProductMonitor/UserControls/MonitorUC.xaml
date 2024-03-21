@@ -117,8 +117,8 @@
                     </ItemsControl.ItemsPanel>
                 </ItemsControl>
             </StackPanel>
-            <Button Style="{StaticResource BtnStyle}" HorizontalAlignment="Right" Grid.Column="1" Height="30" VerticalAlignment="Center" Margin="20, 0" Content="配置" Tag="&#xe625;">
-            </Button>
+            <Button Style="{StaticResource BtnStyle}" HorizontalAlignment="Right" Grid.Column="1" Height="30" VerticalAlignment="Center" 
+                    Margin="20, 0" Content="配置" Tag="&#xe625;" Command="{Binding ShowSettingsWinCmd, RelativeSource={RelativeSource AncestorType=Window}}"></Button>
         </Grid>
         <!--第二行-->
         <Grid Grid.Row="1">

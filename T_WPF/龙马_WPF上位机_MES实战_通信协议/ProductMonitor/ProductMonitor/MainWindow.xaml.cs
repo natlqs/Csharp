@@ -1,6 +1,7 @@
 ﻿using ProductMonitor.OpCommand;
 using ProductMonitor.UserControls;
 using ProductMonitor.ViewModels;
+using ProductMonitor.Views;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -141,5 +142,30 @@ namespace ProductMonitor
             //this.Close();   // 关闭窗口
             Environment.Exit(0);    // 强制退出整个应用
         }
+
+
+        #region 弹出配置窗口
+        /// <summary>
+        /// 弹出配置窗口
+        /// </summary>
+        private void ShowSettingsWin()
+        {
+            // 父子关系
+            SettingsWin settingsWin = new SettingsWin() { Owner = this };
+            settingsWin.ShowDialog();
+            //settingsWin.Show();
+        }
+
+        /// <summary>
+        /// 弹出配置窗口命令，用于wpf绑定
+        /// </summary>
+        public Command ShowSettingsWinCmd
+        {
+            get
+            {
+                return new Command(ShowSettingsWin);
+            }
+        }
+        #endregion
     }
 }
