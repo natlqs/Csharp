@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ProductMonitor",
+    "\\ProductMonitor\\ProductMonitor"
   ],
   "PreviewInSolutionExplorer": false
 }
