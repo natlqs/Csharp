@@ -118,7 +118,7 @@
                 </ItemsControl>
             </StackPanel>
             <Button Style="{StaticResource BtnStyle}" HorizontalAlignment="Right" Grid.Column="1" Height="30" VerticalAlignment="Center" 
-                    Margin="20, 0" Content="配置" Tag="&#xe625;" Command="{Binding ShowSettingsWinCmd, RelativeSource={RelativeSource AncestorType=Window}}"></Button>
+                    Margin="20, 0" Content="Configuration" Tag="&#xe625;" Command="{Binding ShowSettingsWinCmd, RelativeSource={RelativeSource AncestorType=Window}}"></Button>
         </Grid>
         <!--第二行-->
         <Grid Grid.Row="1">
@@ -391,7 +391,7 @@
                             <TextBlock Text="{Binding WorkShopName}" VerticalAlignment="Center" HorizontalAlignment="Left" Foreground="#18aabd" Margin="10,0" ></TextBlock>
                             <!--第一行 第二列-->
                             <TextBlock Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="10,0" > 
-                                <Hyperlink Foreground="White" TextDecorations="None" Command="{Binding ShowWorkShopDetailCmd,RelativeSource={RelativeSource AncestorType=Window}}">[详情]</Hyperlink>
+                                <Hyperlink Foreground="White" TextDecorations="None" Command="{Binding ShowWorkShopDetailCmd,RelativeSource={RelativeSource AncestorType=Window}}">[Detail]</Hyperlink>
                             </TextBlock>
                             <!--第二行 第一列-->
                             <StackPanel Grid.Row="1"  HorizontalAlignment="Center" VerticalAlignment="Center">
