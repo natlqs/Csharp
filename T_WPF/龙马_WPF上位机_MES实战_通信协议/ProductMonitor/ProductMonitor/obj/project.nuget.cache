@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PbtfDCawroVYYEzm/Jzf8mzwM4dzcL69TopIMrCflpHO2Qv753ivC/HzlErDDHbZ6f2SjEl8tyioiuBehxHvvA==",
+  "dgSpecHash": "MwvrUHFkrtMI1ev7zstf4RZjwh8HK370JOYmErd+Fwd3d8B3Pa36bWfOVlI7o3S6uE5URc9ka7pCylCf4uengA==",
   "success": true,
-  "projectFilePath": "D:\\VMcommunicate\\CODE\\Csharp\\T_WPF\\龙马_WPF上位机_MES实战_通信协议\\ProductMonitor\\ProductMonitor\\ProductMonitor.csproj",
+  "projectFilePath": "D:\\01_Data\\CODE\\csharp\\T_WPF\\龙马_WPF上位机_MES实战_通信协议\\ProductMonitor\\ProductMonitor\\ProductMonitor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\natlq\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
     "C:\\Users\\natlq\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512"
