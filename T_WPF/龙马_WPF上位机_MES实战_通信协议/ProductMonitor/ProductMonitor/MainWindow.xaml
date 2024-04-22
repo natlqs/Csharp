@@ -40,13 +40,9 @@
                 <Image Source="/Resources/Images/Logo.png" Margin="0, 5"/>
                 <!--第二列-->
                 <StackPanel Orientation="Vertical" Grid.Column="1" VerticalAlignment="Center">
-<<<<<<< HEAD
                     <TextBlock Text="Production Monitoring System" Foreground="gold" FontFamily="arial bold" FontSize="16"></TextBlock>
-                    <TextBlock Text="ZZZZZZZZZZZZZZZ" Foreground="White" FontSize="12" Margin="0, 4, 0, 0"></TextBlock>
-=======
-                    <TextBlock Text="Production Monitoring Platform" FontFamily="Arial Bold" Foreground="gold" FontSize="16"></TextBlock>
+                    <!--<TextBlock Text="Production Monitoring Platform" FontFamily="Arial Bold" Foreground="gold" FontSize="12"></TextBlock>-->
                     <TextBlock Text="ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ" Foreground="White" FontSize="12" Margin="0, 4, 0, 0"></TextBlock>
->>>>>>> 30b2b26608e30765f1e8a3e7858537c272c26d81
                 </StackPanel>
                 <!--第三列-->
                 <Grid Grid.Column="2">
@@ -92,11 +88,8 @@
                         </VisualBrush>
                     </Border.Background>
                 </Border>
-<<<<<<< HEAD
                 <TextBlock Grid.Column="1" Text="XXXXXXXXXXXXXXX Co,.Ltd" Foreground="White" FontSize="18" FontWeight="Bold"></TextBlock>
-=======
                 <TextBlock Grid.Column="1" Text="XXXXXXXXXXXXXXXXXXXXX Co,.Ltd" Foreground="White" FontSize="18" FontWeight="Bold"></TextBlock>
->>>>>>> 30b2b26608e30765f1e8a3e7858537c272c26d81
             </Grid>
         </Border>
     </Grid>
