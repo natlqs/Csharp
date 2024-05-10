@@ -1,0 +1,76 @@
+﻿@page "/counter/{InitialCount:int?}"
+@page "/counter2"
+@rendermode InteractiveServer
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+@* 不同的方法处理事件 *@
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+@* <button class="btn btn-primary" @onclick="IncrementCountAsync">Click me</button> *@
+@* <button class="btn btn-primary" @onclick="() => currentCount++">Click me</button> *@
+@* <button class="btn btn-primary" @onclick="IncrementCount2">Click me</button> *@
+
+<MyButton OnClick="IncrementCount2" class="btn btn-success">MyButton</MyButton>
+
+
+@* 事件处理 *@
+<div class="mt-3">
+    <br />
+    <input @oninput="OnInput" />
+    <p>Text: @text</p>
+</div>
+
+
+<div style="background-color:lightblue" @onmouseover="MouseOver" @onmouseout="MouseOut">@divText</div>
+
+
+@* 参数 *@
+<p>InitialCount = @InitialCount</p>
+
+@if (currentCount > 3)
+{
+    <p>You have clicked the button @currentCount times.</p>
+}
+
+@for (int i = 0; i < currentCount; i++)
+{
+    <li>Clicked</li>
+}
+
+
+@code {
+    private int currentCount = 0;
+
+    string text = "";
+
+    string divText = "Mouse outside";
+
+    protected override void OnInitialized()
+    {
+        currentCount = InitialCount;
+    }
+
+    [Parameter]
+    public int InitialCount { get; set; }
+    [Parameter]
+    public int IncrementAmount { get; set; } = 4;
+
+    private void IncrementCount() => currentCount += IncrementAmount;
+    async Task IncrementCountAsync()
+    {
+        await Task.Delay(1000);
+        currentCount += IncrementAmount;
+    }
+    private async Task IncrementCount2(MouseEventArgs e)
+    {
+        await Task.Delay(1000);
+        currentCount += IncrementAmount;
+    }
+    private void OnInput(ChangeEventArgs e) => text = (string)e.Value!;
+    private void MouseOver(MouseEventArgs e) => divText = "Mouse over";
+    private void MouseOut(MouseEventArgs e) => divText = "Mouse outside";
+}
